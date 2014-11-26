@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="graphin" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="graphin" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DGRAPHIN_EXPORTS" />
+					<Add option="-DAGG2D_USE_FREETYPE" />
+					<Add option="-DXWINDOW" />
+					<Add directory="../../include" />
+					<Add directory="../../src/agg/include" />
+					<Add directory="../../src/zlib" />
+					<Add directory="../../src/png" />
+					<Add directory="../../src/jpeg" />
+					<Add directory="../../src/agg/font_freetype" />
+					<Add directory="../../src/agg/freetype2/include" />
+					<Add directory="../../src" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="graphin" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DGRAPHIN_EXPORTS" />
+					<Add option="-DAGG2D_USE_FREETYPE" />
+					<Add option="-DXWINDOW" />
+					<Add directory="../../include" />
+					<Add directory="../../src/agg/include" />
+					<Add directory="../../src/zlib" />
+					<Add directory="../../src/png" />
+					<Add directory="../../src/jpeg" />
+					<Add directory="../../src/agg/font_freetype" />
+					<Add directory="../../src/agg/freetype2/include" />
+					<Add directory="../../src" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DGRAPHIN_EXPORTS" />
+			<Add option="-DAGG2D_USE_FREETYPE" />
+			<Add option="-DXWINDOW" />
+			<Add directory="../../include" />
+			<Add directory="../../src/agg/include" />
+			<Add directory="../../src/zlib" />
+			<Add directory="../../src/png" />
+			<Add directory="../../src/jpeg" />
+			<Add directory="../../src/agg/font_freetype" />
+			<Add directory="../../src/agg/freetype2/include" />
+			<Add directory="../../src" />
+		</Compiler>
+		<Linker>
+			<Add library="X11" />
+			<Add library="libjpeg.a" />
+			<Add library="libpng.a" />
+			<Add library="libz.a" />
+			<Add directory="../linux" />
+		</Linker>
+		<Unit filename="../../include/graphin.h" />
+		<Unit filename="../../include/window.h" />
+		<Unit filename="pixel_map.cpp" />
+		<Unit filename="xapp.cpp" />
+		<Unit filename="xapp.hpp" />
+		<Unit filename="xapp_ext.cpp" />
+		<Unit filename="xwnd.cpp" />
+		<Unit filename="xwnd.hpp" />
+		<Unit filename="xwnd_ext.cpp" />
+		<Unit filename="../../src/agg/font_freetype/agg_font_freetype.cpp" />
+		<Unit filename="../../src/agg/freetype2/src/autofit/autofit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/base/ftbase.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/base/ftbitmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/base/ftdebug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/base/ftglyph.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/base/ftinit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/base/ftmm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/base/ftstroke.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/base/ftsystem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/bdf/bdf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/cache/ftcache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/cff/cff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/cid/type1cid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/gzip/ftgzip.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/lzw/ftlzw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/pcf/pcf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/pfr/pfr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/psaux/psaux.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/pshinter/pshinter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/psnames/psmodule.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/raster/raster.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/sfnt/sfnt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/smooth/smooth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/truetype/truetype.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/type1/type1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/type42/type42.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/freetype2/src/winfonts/winfnt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../src/agg/include/agg2D.h" />
+		<Unit filename="../../src/agg/include/platform/X11/agg_pixel_map.h" />
+		<Unit filename="../../src/agg/src/agg2D.cpp" />
+		<Unit filename="../../src/agg/src/agg_arc.cpp" />
+		<Unit filename="../../src/agg/src/agg_bezier_arc.cpp" />
+		<Unit filename="../../src/agg/src/agg_curves.cpp" />
+		<Unit filename="../../src/agg/src/agg_gsv_text.cpp" />
+		<Unit filename="../../src/agg/src/agg_image_filters.cpp" />
+		<Unit filename="../../src/agg/src/agg_line_aa_basics.cpp" />
+		<Unit filename="../../src/agg/src/agg_line_profile_aa.cpp" />
+		<Unit filename="../../src/agg/src/agg_rounded_rect.cpp" />
+		<Unit filename="../../src/agg/src/agg_sqrt_tables.cpp" />
+		<Unit filename="../../src/agg/src/agg_trans_affine.cpp" />
+		<Unit filename="../../src/agg/src/agg_vcgen_stroke.cpp" />
+		<Unit filename="../../src/graphin.cpp" />
+		<Unit filename="../../src/imageio.cpp" />
+		<Unit filename="../../src/imageio.h" />
+		<Unit filename="../../src/objects.h" />
+		<Unit filename="../../src/primitives.h" />
+		<Extensions>
+			<code_completion>
+				<search_path add="../../include" />
+				<search_path add="../../src/agg/include" />
+				<search_path add="../../src/jpeg" />
+				<search_path add="../../src/png" />
+				<search_path add="../../src/zlib" />
+				<search_path add="../../src" />
+			</code_completion>
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

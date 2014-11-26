@@ -1,0 +1,48 @@
+﻿生成启动时间为 2013/10/24 10:08:32。
+     1>项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\images\images.vcxproj”在节点 4 上(build 个目标)。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+     1>InitializeBuildStatus:
+         正在创建“Debug\images.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /Od /Oy- /D _DEBUG /D SK_CAN_USE_FLOAT /D SK_SCALAR_IS_FLOAT /D SK_BUILD_FOR_WIN32 /D SK_IGNORE_STDINT_DOT_H /D SK_DEBUG /D GR_DEBUG=1 /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"D:\Baijie\software\dev\UILib\SkiaRender\Debug\images.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\images\bmpdecoderhelper.cpp ..\..\src\images\SkCreateRLEPixelRef.cpp ..\..\src\images\SkFlipPixelRef.cpp ..\..\src\images\SkImageDecoder.cpp ..\..\src\images\SkImageDecoder_libbmp.cpp ..\..\src\images\SkImageDecoder_libico.cpp ..\..\src\images\SkImageDecoder_wbmp.cpp ..\..\src\images\SkImageEncoder.cpp ..\..\src\images\SkImageRef.cpp ..\..\src\images\SkImageRefPool.cpp ..\..\src\images\SkImageRef_GlobalPool.cpp ..\..\src\images\SkMovie.cpp ..\..\src\images\SkPageFlipper.cpp ..\..\src\images\SkScaledBitmapSampler.cpp ..\..\src\ports\SkImageDecoder_WIC.cpp
+         SkImageDecoder_WIC.cpp
+         SkScaledBitmapSampler.cpp
+         SkPageFlipper.cpp
+         SkMovie.cpp
+         SkImageRef_GlobalPool.cpp
+         SkImageRefPool.cpp
+         SkImageRef.cpp
+         SkImageEncoder.cpp
+         SkImageDecoder_wbmp.cpp
+         SkImageDecoder_libico.cpp
+         SkImageDecoder_libbmp.cpp
+         SkImageDecoder.cpp
+         SkFlipPixelRef.cpp
+         SkCreateRLEPixelRef.cpp
+         bmpdecoderhelper.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\..\Debug\images.lib" /NOLOGO Debug\bmpdecoderhelper.obj
+         Debug\SkCreateRLEPixelRef.obj
+         Debug\SkFlipPixelRef.obj
+         Debug\SkImageDecoder.obj
+         Debug\SkImageDecoder_libbmp.obj
+         Debug\SkImageDecoder_libico.obj
+         Debug\SkImageDecoder_wbmp.obj
+         Debug\SkImageEncoder.obj
+         Debug\SkImageRef.obj
+         Debug\SkImageRefPool.obj
+         Debug\SkImageRef_GlobalPool.obj
+         Debug\SkMovie.obj
+         Debug\SkPageFlipper.obj
+         Debug\SkScaledBitmapSampler.obj
+         Debug\SkImageDecoder_WIC.obj
+         images.vcxproj -> D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\images\..\..\..\Debug\images.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\images.unsuccessfulbuild”。
+         正在对“Debug\images.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\images\images.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.73

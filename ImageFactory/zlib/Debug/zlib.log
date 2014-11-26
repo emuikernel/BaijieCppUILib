@@ -1,0 +1,29 @@
+﻿生成启动时间为 2014/2/8 19:09:34。
+     1>项目“D:\Baijie\software\dev\UILib\ImageFactory\zlib\zlib.vcxproj”在节点 2 上(build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+     1>InitializeBuildStatus:
+         正在创建“.\Debug\zlib.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\lib\debug\zlib.lib" /NOLOGO .\Debug\adler32.obj
+         .\Debug\compress.obj
+         .\Debug\crc32.obj
+         .\Debug\deflate.obj
+         .\Debug\gzio.obj
+         .\Debug\infback.obj
+         .\Debug\inffast.obj
+         .\Debug\inflate.obj
+         .\Debug\inftrees.obj
+         .\Debug\trees.obj
+         .\Debug\uncompr.obj
+         .\Debug\zutil.obj
+         zlib.vcxproj -> D:\Baijie\software\dev\UILib\ImageFactory\zlib\..\lib\debug\zlib.lib
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\zlib.unsuccessfulbuild”。
+         正在对“.\Debug\zlib.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Baijie\software\dev\UILib\ImageFactory\zlib\zlib.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.13

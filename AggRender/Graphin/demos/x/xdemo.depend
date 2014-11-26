@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1236918949 source:/home/andrew/graphin/demos/x/main.cpp
+	<iostream>
+	"window.h"
+
+1233899783 
+
+1235272947 /home/andrew/graphin/include/window.h
+	"graphin.h"
+
+1233454343 "
+
+1233632440 /home/andrew/graphin/include/graphin.h
+	<windows.h>
+	<X11/Xlib.h>
+
+1233632440 h>
+
+1233899783 source:/home/andrew/Desktop/Graphin/demos/x/main.cpp
+	<iostream>
+	"window.h"
+
+1233454343 /home/andrew/Desktop/Graphin/include/window.h
+	"graphin.h"
+
+1233632440 /home/andrew/Desktop/Graphin/include/graphin.h
+	<windows.h>
+	<X11/Xlib.h>
+
+1237266620 source:/home/andrew/graphin/demos/x/main.cpp
+	<iostream>
+	"window.h"
+
+1237266544 /home/andrew/graphin/include/window.h
+	"graphin.h"
+
+1237266544 /home/andrew/graphin/include/graphin.h
+	<windows.h>
+	<X11/Xlib.h>
+

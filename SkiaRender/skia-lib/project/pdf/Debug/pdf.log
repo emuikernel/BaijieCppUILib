@@ -1,0 +1,67 @@
+﻿生成启动时间为 2013/10/24 10:08:16。
+     1>项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\pdf\pdf.vcxproj”在节点 2 上(build 个目标)。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+     1>InitializeBuildStatus:
+         正在创建“Debug\pdf.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D SK_CAN_USE_FLOAT /D SK_SCALAR_IS_FLOAT /D SK_BUILD_FOR_WIN32 /D SK_IGNORE_STDINT_DOT_H /D SK_DEBUG /D GR_DEBUG=1 /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"D:\Baijie\software\dev\UILib\SkiaRender\Debug\pdf.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\pdf\SkPDFCatalog.cpp ..\..\src\pdf\SkPDFDevice.cpp ..\..\src\pdf\SkPDFDocument.cpp ..\..\src\pdf\SkPDFFont.cpp ..\..\src\pdf\SkPDFFormXObject.cpp ..\..\src\pdf\SkPDFGraphicState.cpp ..\..\src\pdf\SkPDFImage.cpp ..\..\src\pdf\SkPDFPage.cpp ..\..\src\pdf\SkPDFShader.cpp ..\..\src\pdf\SkPDFStream.cpp ..\..\src\pdf\SkPDFTypes.cpp ..\..\src\pdf\SkPDFUtils.cpp
+         SkPDFUtils.cpp
+         SkPDFTypes.cpp
+         SkPDFStream.cpp
+         SkPDFShader.cpp
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfshader.cpp(499): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfshader.cpp(517): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfshader.cpp(517): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfshader.cpp(523): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfshader.cpp(530): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfshader.cpp(538): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfshader.cpp(538): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfshader.cpp(557): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfshader.cpp(564): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfshader.cpp(564): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfshader.cpp(571): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfshader.cpp(592): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfshader.cpp(605): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfshader.cpp(610): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfshader.cpp(630): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfshader.cpp(643): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfshader.cpp(648): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+         SkPDFPage.cpp
+         SkPDFImage.cpp
+         SkPDFGraphicState.cpp
+         SkPDFFormXObject.cpp
+         SkPDFFont.cpp
+         SkPDFDocument.cpp
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfdocument.cpp(184): warning C4244: “参数”: 从“int64_t”转换到“int32_t”，可能丢失数据
+         SkPDFDevice.cpp
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfdevice.cpp(335): warning C4244: “参数”: 从“const int32_t”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfdevice.cpp(335): warning C4244: “参数”: 从“const int32_t”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfdevice.cpp(511): warning C4244: “参数”: 从“const int32_t”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfdevice.cpp(511): warning C4244: “参数”: 从“const int32_t”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfdevice.cpp(534): warning C4244: “参数”: 从“const int32_t”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfdevice.cpp(1097): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+     1>d:\baijie\software\dev\uilib\skiarender\skia-lib\src\pdf\skpdfdevice.cpp(1097): warning C4244: “参数”: 从“int”转换到“SkScalar”，可能丢失数据
+         SkPDFCatalog.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\..\Debug\pdf.lib" /NOLOGO Debug\SkPDFCatalog.obj
+         Debug\SkPDFDevice.obj
+         Debug\SkPDFDocument.obj
+         Debug\SkPDFFont.obj
+         Debug\SkPDFFormXObject.obj
+         Debug\SkPDFGraphicState.obj
+         Debug\SkPDFImage.obj
+         Debug\SkPDFPage.obj
+         Debug\SkPDFShader.obj
+         Debug\SkPDFStream.obj
+         Debug\SkPDFTypes.obj
+         Debug\SkPDFUtils.obj
+         pdf.vcxproj -> D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\pdf\..\..\..\Debug\pdf.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\pdf.unsuccessfulbuild”。
+         正在对“Debug\pdf.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\pdf\pdf.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.87

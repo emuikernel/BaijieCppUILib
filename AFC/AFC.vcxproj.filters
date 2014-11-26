@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\AArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AComponent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ADateTime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ADocument.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AEnumerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AException.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AFC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AFCDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AFCVer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AMemory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AML.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AModelBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AMVCBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AObjectArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AStringArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AStringMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATempl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AViewBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tinystr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tinyxml.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AComponent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ADateTime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ADocument.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AException.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AMemory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AML.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AModelBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AMVCBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AObjectArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AStringArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AStringMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AViewBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinystr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxmlerror.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxmlparser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

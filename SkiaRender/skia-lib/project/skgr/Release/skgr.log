@@ -1,0 +1,28 @@
+﻿生成启动时间为 2013/12/16 18:03:57。
+     1>项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\skgr\skgr.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\skgr.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oi /Oy- /GL /D SK_CAN_USE_FLOAT /D SK_SCALAR_IS_FLOAT /D SK_BUILD_FOR_WIN32 /D SK_IGNORE_STDINT_DOT_H /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\Release\skgr.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\gpu\GrPrintf_skia.cpp ..\..\src\gpu\SkGpuCanvas.cpp ..\..\src\gpu\SkGpuDevice.cpp ..\..\src\gpu\SkGr.cpp ..\..\src\gpu\SkGrFontScaler.cpp ..\..\src\gpu\SkGrTexturePixelRef.cpp
+         GrPrintf_skia.cpp
+         SkGpuCanvas.cpp
+         SkGpuDevice.cpp
+         SkGr.cpp
+         SkGrFontScaler.cpp
+         SkGrTexturePixelRef.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\..\Release\skgr.lib" /NOLOGO /LTCG Release\GrPrintf_skia.obj
+         Release\SkGpuCanvas.obj
+         Release\SkGpuDevice.obj
+         Release\SkGr.obj
+         Release\SkGrFontScaler.obj
+         Release\SkGrTexturePixelRef.obj
+         skgr.vcxproj -> D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\skgr\..\..\..\Release\skgr.lib
+       FinalizeBuildStatus:
+         正在删除文件“Release\skgr.unsuccessfulbuild”。
+         正在对“Release\skgr.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\skgr\skgr.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.89

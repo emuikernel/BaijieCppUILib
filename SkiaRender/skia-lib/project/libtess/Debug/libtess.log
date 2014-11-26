@@ -1,0 +1,38 @@
+﻿生成启动时间为 2013/10/24 10:08:17。
+     1>项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\libtess\libtess.vcxproj”在节点 3 上(build 个目标)。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+     1>InitializeBuildStatus:
+         正在创建“Debug\libtess.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /Od /Oy- /D _DEBUG /D SK_CAN_USE_FLOAT /D SK_SCALAR_IS_FLOAT /D SK_BUILD_FOR_WIN32 /D SK_IGNORE_STDINT_DOT_H /D SK_DEBUG /D GR_DEBUG=1 /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"D:\Baijie\software\dev\UILib\SkiaRender\Debug\libtess.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\third_party\glu\libtess\dict.c ..\..\third_party\glu\libtess\geom.c ..\..\third_party\glu\libtess\memalloc.c ..\..\third_party\glu\libtess\mesh.c ..\..\third_party\glu\libtess\normal.c ..\..\third_party\glu\libtess\priorityq.c ..\..\third_party\glu\libtess\render.c ..\..\third_party\glu\libtess\sweep.c ..\..\third_party\glu\libtess\tess.c ..\..\third_party\glu\libtess\tessmono.c
+         tessmono.c
+         tess.c
+         sweep.c
+         render.c
+         priorityq.c
+         normal.c
+         mesh.c
+         memalloc.c
+         geom.c
+         dict.c
+         正在生成代码...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\..\Debug\libtess.lib" /NOLOGO Debug\dict.obj
+         Debug\geom.obj
+         Debug\memalloc.obj
+         Debug\mesh.obj
+         Debug\normal.obj
+         Debug\priorityq.obj
+         Debug\render.obj
+         Debug\sweep.obj
+         Debug\tess.obj
+         Debug\tessmono.obj
+         libtess.vcxproj -> D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\libtess\..\..\..\Debug\libtess.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\libtess.unsuccessfulbuild”。
+         正在对“Debug\libtess.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\libtess\libtess.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.63

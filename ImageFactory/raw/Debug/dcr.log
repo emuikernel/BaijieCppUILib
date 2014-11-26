@@ -1,0 +1,58 @@
+﻿生成启动时间为 2013/10/24 8:49:19。
+     1>项目“D:\Baijie\software\dev\UILib\ImageFactory\raw\dcr.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Debug\dcr.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt dcr.c
+         dcr.c
+     1>d:\baijie\software\dev\uilib\imagefactory\raw\dcr.c(90): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putenv. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(869) : 参见“putenv”的声明
+     1>d:\baijie\software\dev\uilib\imagefactory\raw\dcr.c(119): warning C4996: 'isatty': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _isatty. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\io.h(308) : 参见“isatty”的声明
+     1>d:\baijie\software\dev\uilib\imagefactory\raw\dcr.c(124): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _setmode. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\io.h(314) : 参见“setmode”的声明
+     1>d:\baijie\software\dev\uilib\imagefactory\raw\dcr.c(144): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(723) : 参见“fileno”的声明
+     1>d:\baijie\software\dev\uilib\imagefactory\raw\dcr.c(145): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(723) : 参见“fileno”的声明
+     1>d:\baijie\software\dev\uilib\imagefactory\raw\dcr.c(152): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\baijie\software\dev\uilib\imagefactory\raw\dcr.c(213): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\time.inl(86) : 参见“ctime”的声明
+     1>d:\baijie\software\dev\uilib\imagefactory\raw\dcr.c(381): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\baijie\software\dev\uilib\imagefactory\raw\dcr.c(384): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\baijie\software\dev\uilib\imagefactory\raw\dcr.c(388): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\baijie\software\dev\uilib\imagefactory\raw\dcr.c(388): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>d:\baijie\software\dev\uilib\imagefactory\raw\dcr.c(390): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\baijie\software\dev\uilib\imagefactory\raw\dcr.c(391): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\baijie\software\dev\uilib\imagefactory\raw\dcr.c(392): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\dcr.exe.embed.manifest.res" .\Debug\dcr_manifest.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\Baijie\software\dev\UILib\ImageFactory\raw\..\lib\Debug\dcr.exe) 与 Linker 的 OutputFile 属性值(D:\Baijie\software\dev\UILib\ImageFactory\raw\ddcr.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(dcr) 与 Linker 的 OutputFile 属性值(ddcr)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"ddcr.exe" /INCREMENTAL /NOLOGO libdcr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\dcr.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Baijie\software\dev\UILib\ImageFactory\lib\Debug\dcr.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\lib\Debug\dcr.lib" /MACHINE:X86 .\Debug\dcr.exe.embed.manifest.res
+         .\Debug\dcr.obj
+         LINK : 缺少程序数据库 D:\Baijie\software\dev\UILib\ImageFactory\lib\Debug\dcr.pdb；正在执行完全链接
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\dcr.exe.embed.manifest" /manifest .\Debug\dcr.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\dcr.exe.embed.manifest.res" .\Debug\dcr_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"ddcr.exe" /INCREMENTAL /NOLOGO libdcr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\dcr.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Baijie\software\dev\UILib\ImageFactory\lib\Debug\dcr.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\lib\Debug\dcr.lib" /MACHINE:X86 .\Debug\dcr.exe.embed.manifest.res
+         .\Debug\dcr.obj
+         dcr.vcxproj -> D:\Baijie\software\dev\UILib\ImageFactory\raw\..\lib\Debug\dcr.exe
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\dcr.unsuccessfulbuild”。
+         正在对“.\Debug\dcr.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Baijie\software\dev\UILib\ImageFactory\raw\dcr.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.87

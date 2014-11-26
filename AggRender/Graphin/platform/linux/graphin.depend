@@ -1,0 +1,1500 @@
+# depslib dependency file v1.0
+1237266544 source:/home/andrew/graphin/platform/linux/pixel_map.cpp
+	"agg2D.h"
+	"primitives.h"
+	"platform/X11/agg_pixel_map.h"
+
+1237267598 /home/andrew/graphin/src/agg/include/agg2D.h
+	"agg_basics.h"
+	"agg_trans_affine.h"
+	"agg_trans_viewport.h"
+	"agg_path_storage.h"
+	"agg_conv_stroke.h"
+	"agg_conv_transform.h"
+	"agg_conv_curve.h"
+	"agg_rendering_buffer.h"
+	"agg_renderer_base.h"
+	"agg_renderer_scanline.h"
+	"agg_span_gradient.h"
+	"agg_span_image_filter_rgba.h"
+	"agg_span_allocator.h"
+	"agg_span_converter.h"
+	"agg_span_interpolator_linear.h"
+	"agg_rasterizer_scanline_aa.h"
+	"agg_gamma_functions.h"
+	"agg_scanline_u.h"
+	"agg_bezier_arc.h"
+	"agg_rounded_rect.h"
+	"agg_font_cache_manager.h"
+	"agg_math_stroke.h"
+	"../font_freetype/agg_font_freetype.h"
+	"../font_win32_tt/agg_font_win32_tt.h"
+	"agg_pixfmt_rgba.h"
+	"agg_image_accessors.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_basics.h
+	<math.h>
+	"agg_config.h"
+	"agg_allocator.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_config.h
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_trans_affine.h
+	<math.h>
+	"agg_basics.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_trans_viewport.h
+	<string.h>
+	"agg_trans_affine.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_path_storage.h
+	<string.h>
+	<math.h>
+	"agg_math.h"
+	"agg_array.h"
+	"agg_bezier_arc.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_math.h
+	<math.h>
+	"agg_basics.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_array.h
+	<stddef.h>
+	<string.h>
+	"agg_basics.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_bezier_arc.h
+	"agg_conv_transform.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_conv_transform.h
+	"agg_basics.h"
+	"agg_trans_affine.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_conv_stroke.h
+	"agg_basics.h"
+	"agg_vcgen_stroke.h"
+	"agg_conv_adaptor_vcgen.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_vcgen_stroke.h
+	"agg_math_stroke.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_math_stroke.h
+	"agg_math.h"
+	"agg_vertex_sequence.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_vertex_sequence.h
+	"agg_basics.h"
+	"agg_array.h"
+	"agg_math.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_conv_adaptor_vcgen.h
+	"agg_basics.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_conv_curve.h
+	"agg_basics.h"
+	"agg_curves.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_curves.h
+	"agg_array.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_rendering_buffer.h
+	"agg_array.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_renderer_base.h
+	"agg_basics.h"
+	"agg_rendering_buffer.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_renderer_scanline.h
+	"agg_basics.h"
+	"agg_renderer_base.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_span_gradient.h
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	"agg_basics.h"
+	"agg_math.h"
+	"agg_array.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_span_image_filter_rgba.h
+	"agg_basics.h"
+	"agg_color_rgba.h"
+	"agg_span_image_filter.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_color_rgba.h
+	<math.h>
+	"agg_basics.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_span_image_filter.h
+	"agg_basics.h"
+	"agg_image_filters.h"
+	"agg_span_interpolator_linear.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_image_filters.h
+	"agg_array.h"
+	"agg_math.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_span_interpolator_linear.h
+	"agg_basics.h"
+	"agg_dda_line.h"
+	"agg_trans_affine.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_dda_line.h
+	<stdlib.h>
+	"agg_basics.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_span_allocator.h
+	"agg_array.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_span_converter.h
+	"agg_basics.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_rasterizer_scanline_aa.h
+	"agg_rasterizer_cells_aa.h"
+	"agg_rasterizer_sl_clip.h"
+	"agg_gamma_functions.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_rasterizer_cells_aa.h
+	<string.h>
+	<math.h>
+	"agg_math.h"
+	"agg_array.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_rasterizer_sl_clip.h
+	"agg_clip_liang_barsky.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_clip_liang_barsky.h
+	"agg_basics.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_gamma_functions.h
+	<math.h>
+	"agg_basics.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_scanline_u.h
+	"agg_array.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_rounded_rect.h
+	"agg_basics.h"
+	"agg_arc.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_arc.h
+	<math.h>
+	"agg_basics.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_font_cache_manager.h
+	<string.h>
+	"agg_array.h"
+
+1237266596 /home/andrew/graphin/src/agg/font_freetype/agg_font_freetype.h
+	"ft2build.h"
+	"agg_scanline_storage_aa.h"
+	"agg_scanline_storage_bin.h"
+	"agg_scanline_u.h"
+	"agg_scanline_bin.h"
+	"agg_path_storage_integer.h"
+	"agg_rasterizer_scanline_aa.h"
+	"agg_conv_curve.h"
+	"agg_font_cache_manager.h"
+	"agg_trans_affine.h"
+
+1237266578 /home/andrew/graphin/src/agg/freetype2/include/ft2build.h
+	<freetype/config/ftheader.h>
+
+1237266577 /home/andrew/graphin/src/agg/freetype2/include/freetype/config/ftheader.h
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_scanline_storage_aa.h
+	<string.h>
+	<stdlib.h>
+	<math.h>
+	"agg_array.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_scanline_storage_bin.h
+	<string.h>
+	<stdlib.h>
+	<math.h>
+	"agg_array.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_scanline_bin.h
+	"agg_array.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_path_storage_integer.h
+	<string.h>
+	"agg_array.h"
+
+1237266559 /home/andrew/graphin/src/agg/font_win32_tt/agg_font_win32_tt.h
+	<windows.h>
+	"agg_scanline_storage_aa.h"
+	"agg_scanline_storage_bin.h"
+	"agg_scanline_u.h"
+	"agg_scanline_bin.h"
+	"agg_path_storage_integer.h"
+	"agg_rasterizer_scanline_aa.h"
+	"agg_conv_curve.h"
+	"agg_trans_affine.h"
+	"agg_font_cache_manager.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_pixfmt_rgba.h
+	<string.h>
+	<math.h>
+	"agg_basics.h"
+	"agg_color_rgba.h"
+	"agg_rendering_buffer.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_image_accessors.h
+	"agg_basics.h"
+
+1237266620 /home/andrew/graphin/src/primitives.h
+	"assert.h"
+
+1237266566 /home/andrew/graphin/src/agg/include/platform/X11/agg_pixel_map.h
+	<X11/Xlib.h>
+	<stdlib.h>
+	<memory.h>
+	"agg_basics.h"
+
+1237266544 source:/home/andrew/graphin/platform/linux/xapp.cpp
+	<X11/Xlib.h>
+	<X11/keysym.h>
+	<X11/Xutil.h>
+	<iostream>
+	"xapp.hpp"
+	"xwnd.hpp"
+
+1237266544 /home/andrew/graphin/platform/linux/xapp.hpp
+	<X11/Xlib.h>
+	<X11/keysym.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	"agg2D.h"
+	"agg_basics.h"
+	"primitives.h"
+	"util/agg_color_conv_rgb8.h"
+	"platform/agg_platform_support.h"
+
+1237266566 /home/andrew/graphin/src/agg/include/util/agg_color_conv_rgb8.h
+	"agg_basics.h"
+	"agg_color_conv.h"
+
+1237266566 /home/andrew/graphin/src/agg/include/util/agg_color_conv.h
+	<string.h>
+	"agg_basics.h"
+	"agg_rendering_buffer.h"
+
+1237266566 /home/andrew/graphin/src/agg/include/platform/agg_platform_support.h
+	"agg_basics.h"
+	"agg_rendering_buffer.h"
+	"agg_trans_viewport.h"
+	"ctrl/agg_ctrl.h"
+
+1237266563 /home/andrew/graphin/src/agg/include/ctrl/agg_ctrl.h
+	"agg_trans_affine.h"
+	"agg_renderer_scanline.h"
+
+1237266544 /home/andrew/graphin/platform/linux/xwnd.hpp
+	"window.h"
+	"xapp.hpp"
+	"agg2D.h"
+	"primitives.h"
+	"objects.h"
+
+1237266544 /home/andrew/graphin/include/window.h
+	"graphin.h"
+
+1237266544 /home/andrew/graphin/include/graphin.h
+	<windows.h>
+	<X11/Xlib.h>
+
+1237266620 /home/andrew/graphin/src/objects.h
+	"platform/win32/agg_win32_bmp.h"
+	"platform/X11/agg_pixel_map.h"
+	"agg2D.h"
+	"primitives.h"
+
+1237266566 /home/andrew/graphin/src/agg/include/platform/win32/agg_win32_bmp.h
+	<windows.h>
+	<stdio.h>
+	"agg_config.h"
+
+1237266544 source:/home/andrew/graphin/platform/linux/xapp_ext.cpp
+	<iostream>
+	"window.h"
+	"xapp.hpp"
+
+1237266544 source:/home/andrew/graphin/platform/linux/xwnd.cpp
+	<X11/Xlib.h>
+	<X11/keysym.h>
+	<X11/Xutil.h>
+	"xapp.hpp"
+	"xwnd.hpp"
+	"window.h"
+
+1237266544 source:/home/andrew/graphin/platform/linux/xwnd_ext.cpp
+	"window.h"
+	"primitives.h"
+	"xwnd.hpp"
+	"xapp.hpp"
+
+1237266596 source:/home/andrew/graphin/src/agg/font_freetype/agg_font_freetype.cpp
+	<stdio.h>
+	"agg_font_freetype.h"
+	"agg_bitset_iterator.h"
+	"agg_renderer_scanline.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_bitset_iterator.h
+	"agg_basics.h"
+
+1237266593 source:/home/andrew/graphin/src/agg/freetype2/src/autofit/autofit.c
+	<ft2build.h>
+	"afangles.c"
+	"afglobal.c"
+	"afhints.c"
+	"afdummy.c"
+	"aflatin.c"
+	"afloader.c"
+	"afmodule.c"
+
+1237266593 /home/andrew/graphin/src/agg/freetype2/src/autofit/afangles.c
+	"aftypes.h"
+	<stdio.h>
+	<math.h>
+
+1237266593 /home/andrew/graphin/src/agg/freetype2/src/autofit/aftypes.h
+	<ft2build.h>
+	<stdio.h>
+
+1237266593 /home/andrew/graphin/src/agg/freetype2/src/autofit/afglobal.c
+	"afglobal.h"
+	"afdummy.h"
+	"aflatin.h"
+	"aferrors.h"
+
+1237266593 /home/andrew/graphin/src/agg/freetype2/src/autofit/afglobal.h
+	"aftypes.h"
+
+1237266593 /home/andrew/graphin/src/agg/freetype2/src/autofit/afdummy.h
+	"aftypes.h"
+
+1237266593 /home/andrew/graphin/src/agg/freetype2/src/autofit/aflatin.h
+	"afhints.h"
+
+1237266593 /home/andrew/graphin/src/agg/freetype2/src/autofit/afhints.h
+	"aftypes.h"
+
+1237266593 /home/andrew/graphin/src/agg/freetype2/src/autofit/aferrors.h
+
+1237266593 /home/andrew/graphin/src/agg/freetype2/src/autofit/afhints.c
+	"afhints.h"
+	"aferrors.h"
+	<stdio.h>
+
+1237266593 /home/andrew/graphin/src/agg/freetype2/src/autofit/afdummy.c
+	"afdummy.h"
+	"afhints.h"
+
+1237266593 /home/andrew/graphin/src/agg/freetype2/src/autofit/aflatin.c
+	"aflatin.h"
+	"aferrors.h"
+
+1237266593 /home/andrew/graphin/src/agg/freetype2/src/autofit/afloader.c
+	"afloader.h"
+	"afhints.h"
+	"afglobal.h"
+	"aflatin.h"
+	"aferrors.h"
+
+1237266593 /home/andrew/graphin/src/agg/freetype2/src/autofit/afloader.h
+	"afhints.h"
+	"afglobal.h"
+
+1237266593 /home/andrew/graphin/src/agg/freetype2/src/autofit/afmodule.c
+	"afmodule.h"
+	"afloader.h"
+
+1237266593 /home/andrew/graphin/src/agg/freetype2/src/autofit/afmodule.h
+	<ft2build.h>
+
+1237266591 source:/home/andrew/graphin/src/agg/freetype2/src/base/ftbase.c
+	<ft2build.h>
+	"ftutil.c"
+	"ftdbgmem.c"
+	"ftstream.c"
+	"ftcalc.c"
+	"fttrigon.c"
+	"ftoutln.c"
+	"ftgloadr.c"
+	"ftobjs.c"
+	"ftnames.c"
+	"ftrfork.c"
+	"ftmac.c"
+
+1237266591 /home/andrew/graphin/src/agg/freetype2/src/base/ftutil.c
+	<ft2build.h>
+
+1237266591 /home/andrew/graphin/src/agg/freetype2/src/base/ftdbgmem.c
+	<ft2build.h>
+	<stdio.h>
+	<stdlib.h>
+
+1237266591 /home/andrew/graphin/src/agg/freetype2/src/base/ftstream.c
+	<ft2build.h>
+
+1237266591 /home/andrew/graphin/src/agg/freetype2/src/base/ftcalc.c
+	<ft2build.h>
+
+1237266591 /home/andrew/graphin/src/agg/freetype2/src/base/fttrigon.c
+	<ft2build.h>
+
+1237266591 /home/andrew/graphin/src/agg/freetype2/src/base/ftoutln.c
+	<ft2build.h>
+
+1237266591 /home/andrew/graphin/src/agg/freetype2/src/base/ftgloadr.c
+	<ft2build.h>
+
+1237266591 /home/andrew/graphin/src/agg/freetype2/src/base/ftobjs.c
+	<ft2build.h>
+
+1237266591 /home/andrew/graphin/src/agg/freetype2/src/base/ftnames.c
+	<ft2build.h>
+
+1237266591 /home/andrew/graphin/src/agg/freetype2/src/base/ftrfork.c
+	<ft2build.h>
+
+1237266591 /home/andrew/graphin/src/agg/freetype2/src/base/ftmac.c
+	<ft2build.h>
+	<Carbon/Carbon.h>
+	<Resources.h>
+	<Fonts.h>
+	<Errors.h>
+	<Files.h>
+	<TextUtils.h>
+	<FSp_fopen.h>
+
+1237266591 source:/home/andrew/graphin/src/agg/freetype2/src/base/ftbitmap.c
+	<ft2build.h>
+
+1237266591 source:/home/andrew/graphin/src/agg/freetype2/src/base/ftdebug.c
+	<ft2build.h>
+
+1237266591 source:/home/andrew/graphin/src/agg/freetype2/src/base/ftglyph.c
+	<ft2build.h>
+
+1237266591 source:/home/andrew/graphin/src/agg/freetype2/src/base/ftinit.c
+	<ft2build.h>
+
+1237266591 source:/home/andrew/graphin/src/agg/freetype2/src/base/ftmm.c
+	<ft2build.h>
+
+1237266591 source:/home/andrew/graphin/src/agg/freetype2/src/base/ftstroke.c
+	<ft2build.h>
+
+1237266591 source:/home/andrew/graphin/src/agg/freetype2/src/base/ftsystem.c
+	<ft2build.h>
+	<stdio.h>
+	<stdlib.h>
+
+1237266581 source:/home/andrew/graphin/src/agg/freetype2/src/bdf/bdf.c
+	<ft2build.h>
+	"bdflib.c"
+	"bdfdrivr.c"
+
+1237266581 /home/andrew/graphin/src/agg/freetype2/src/bdf/bdflib.c
+	<ft2build.h>
+	"bdf.h"
+	"bdferror.h"
+
+1237266581 /home/andrew/graphin/src/agg/freetype2/src/bdf/bdf.h
+	<ft2build.h>
+
+1237266581 /home/andrew/graphin/src/agg/freetype2/src/bdf/bdferror.h
+
+1237266581 /home/andrew/graphin/src/agg/freetype2/src/bdf/bdfdrivr.c
+	<ft2build.h>
+	"bdf.h"
+	"bdfdrivr.h"
+	"bdferror.h"
+
+1237266581 /home/andrew/graphin/src/agg/freetype2/src/bdf/bdfdrivr.h
+	<ft2build.h>
+	"bdf.h"
+
+1237266587 source:/home/andrew/graphin/src/agg/freetype2/src/cache/ftcache.c
+	<ft2build.h>
+	"ftcmru.c"
+	"ftcmanag.c"
+	"ftccache.c"
+	"ftccmap.c"
+	"ftcglyph.c"
+	"ftcimage.c"
+	"ftcsbits.c"
+	"ftcbasic.c"
+
+1237266587 /home/andrew/graphin/src/agg/freetype2/src/cache/ftcmru.c
+	<ft2build.h>
+	"ftcerror.h"
+
+1237266587 /home/andrew/graphin/src/agg/freetype2/src/cache/ftcerror.h
+
+1237266587 /home/andrew/graphin/src/agg/freetype2/src/cache/ftcmanag.c
+	<ft2build.h>
+	"ftcerror.h"
+
+1237266587 /home/andrew/graphin/src/agg/freetype2/src/cache/ftccache.c
+	<ft2build.h>
+	"ftccback.h"
+	"ftcerror.h"
+
+1237266587 /home/andrew/graphin/src/agg/freetype2/src/cache/ftccback.h
+	<ft2build.h>
+
+1237266587 /home/andrew/graphin/src/agg/freetype2/src/cache/ftccmap.c
+	<ft2build.h>
+	"ftccback.h"
+	"ftcerror.h"
+
+1237266587 /home/andrew/graphin/src/agg/freetype2/src/cache/ftcglyph.c
+	<ft2build.h>
+	"ftccback.h"
+	"ftcerror.h"
+
+1237266587 /home/andrew/graphin/src/agg/freetype2/src/cache/ftcimage.c
+	<ft2build.h>
+	"ftccback.h"
+	"ftcerror.h"
+
+1237266587 /home/andrew/graphin/src/agg/freetype2/src/cache/ftcsbits.c
+	<ft2build.h>
+	"ftccback.h"
+	"ftcerror.h"
+
+1237266587 /home/andrew/graphin/src/agg/freetype2/src/cache/ftcbasic.c
+	<ft2build.h>
+	"ftccback.h"
+	"ftcerror.h"
+
+1237266583 source:/home/andrew/graphin/src/agg/freetype2/src/cff/cff.c
+	<ft2build.h>
+	"cffdrivr.c"
+	"cffparse.c"
+	"cffload.c"
+	"cffobjs.c"
+	"cffgload.c"
+	"cffcmap.c"
+
+1237266583 /home/andrew/graphin/src/agg/freetype2/src/cff/cffdrivr.c
+	<ft2build.h>
+	"cffdrivr.h"
+	"cffgload.h"
+	"cffload.h"
+	"cffcmap.h"
+	"cfferrs.h"
+
+1237266583 /home/andrew/graphin/src/agg/freetype2/src/cff/cffdrivr.h
+	<ft2build.h>
+
+1237266583 /home/andrew/graphin/src/agg/freetype2/src/cff/cffgload.h
+	<ft2build.h>
+	"cffobjs.h"
+
+1237266583 /home/andrew/graphin/src/agg/freetype2/src/cff/cffobjs.h
+	<ft2build.h>
+	"cfftypes.h"
+
+1237266583 /home/andrew/graphin/src/agg/freetype2/src/cff/cfftypes.h
+	<ft2build.h>
+
+1237266583 /home/andrew/graphin/src/agg/freetype2/src/cff/cffload.h
+	<ft2build.h>
+	"cfftypes.h"
+
+1237266583 /home/andrew/graphin/src/agg/freetype2/src/cff/cffcmap.h
+	"cffobjs.h"
+
+1237266583 /home/andrew/graphin/src/agg/freetype2/src/cff/cfferrs.h
+
+1237266583 /home/andrew/graphin/src/agg/freetype2/src/cff/cffparse.c
+	<ft2build.h>
+	"cffparse.h"
+	"cfferrs.h"
+	"cfftoken.h"
+
+1237266583 /home/andrew/graphin/src/agg/freetype2/src/cff/cffparse.h
+	<ft2build.h>
+	"cfftypes.h"
+
+1237266583 /home/andrew/graphin/src/agg/freetype2/src/cff/cfftoken.h
+
+1237266583 /home/andrew/graphin/src/agg/freetype2/src/cff/cffload.c
+	<ft2build.h>
+	"cffload.h"
+	"cffparse.h"
+	"cfferrs.h"
+
+1237266583 /home/andrew/graphin/src/agg/freetype2/src/cff/cffobjs.c
+	<ft2build.h>
+	"cffobjs.h"
+	"cffload.h"
+	"cffcmap.h"
+	"cfferrs.h"
+
+1237266583 /home/andrew/graphin/src/agg/freetype2/src/cff/cffgload.c
+	<ft2build.h>
+	"cffobjs.h"
+	"cffload.h"
+	"cffgload.h"
+	"cfferrs.h"
+
+1237266583 /home/andrew/graphin/src/agg/freetype2/src/cff/cffcmap.c
+	"cffcmap.h"
+	"cffload.h"
+	"cfferrs.h"
+
+1237266584 source:/home/andrew/graphin/src/agg/freetype2/src/cid/type1cid.c
+	<ft2build.h>
+	"cidparse.c"
+	"cidload.c"
+	"cidobjs.c"
+	"cidriver.c"
+	"cidgload.c"
+
+1237266584 /home/andrew/graphin/src/agg/freetype2/src/cid/cidparse.c
+	<ft2build.h>
+	"cidparse.h"
+	"ciderrs.h"
+
+1237266584 /home/andrew/graphin/src/agg/freetype2/src/cid/cidparse.h
+	<ft2build.h>
+
+1237266584 /home/andrew/graphin/src/agg/freetype2/src/cid/ciderrs.h
+
+1237266584 /home/andrew/graphin/src/agg/freetype2/src/cid/cidload.c
+	<ft2build.h>
+	"cidload.h"
+	"ciderrs.h"
+	"cidtoken.h"
+
+1237266584 /home/andrew/graphin/src/agg/freetype2/src/cid/cidload.h
+	<ft2build.h>
+	"cidparse.h"
+
+1237266584 /home/andrew/graphin/src/agg/freetype2/src/cid/cidtoken.h
+
+1237266584 /home/andrew/graphin/src/agg/freetype2/src/cid/cidobjs.c
+	<ft2build.h>
+	"cidgload.h"
+	"cidload.h"
+	"ciderrs.h"
+
+1237266584 /home/andrew/graphin/src/agg/freetype2/src/cid/cidgload.h
+	<ft2build.h>
+	"cidobjs.h"
+
+1237266584 /home/andrew/graphin/src/agg/freetype2/src/cid/cidobjs.h
+	<ft2build.h>
+
+1237266584 /home/andrew/graphin/src/agg/freetype2/src/cid/cidriver.c
+	<ft2build.h>
+	"cidriver.h"
+	"cidgload.h"
+	"ciderrs.h"
+
+1237266584 /home/andrew/graphin/src/agg/freetype2/src/cid/cidriver.h
+	<ft2build.h>
+
+1237266584 /home/andrew/graphin/src/agg/freetype2/src/cid/cidgload.c
+	<ft2build.h>
+	"cidload.h"
+	"cidgload.h"
+	"ciderrs.h"
+
+1237266589 source:/home/andrew/graphin/src/agg/freetype2/src/gzip/ftgzip.c
+	<ft2build.h>
+	<string.h>
+	<zlib.h>
+	"zlib.h"
+	"zutil.h"
+	"inftrees.h"
+	"infblock.h"
+	"infcodes.h"
+	"infutil.h"
+	"zutil.c"
+	"inftrees.c"
+	"infutil.c"
+	"infcodes.c"
+	"infblock.c"
+	"inflate.c"
+	"adler32.c"
+
+1237266547 /home/andrew/graphin/src/zlib/zlib.h
+	"zconf.h"
+
+1237266547 /home/andrew/graphin/src/zlib/zconf.h
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+	<unixio.h>
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/gzip/zlib.h
+	"zconf.h"
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/gzip/zconf.h
+	<windows.h>
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/gzip/zutil.h
+	"zlib.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	<alloc.h>
+	<malloc.h>
+	<unix.h>
+	<stdio.h>
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/gzip/inftrees.h
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/gzip/infblock.h
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/gzip/infcodes.h
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/gzip/infutil.h
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/gzip/zutil.c
+	"zutil.h"
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/gzip/inftrees.c
+	"zutil.h"
+	"inftrees.h"
+	"inffixed.h"
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/gzip/inffixed.h
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/gzip/infutil.c
+	"zutil.h"
+	"infblock.h"
+	"inftrees.h"
+	"infcodes.h"
+	"infutil.h"
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/gzip/infcodes.c
+	"zutil.h"
+	"inftrees.h"
+	"infblock.h"
+	"infcodes.h"
+	"infutil.h"
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/gzip/infblock.c
+	"zutil.h"
+	"infblock.h"
+	"inftrees.h"
+	"infcodes.h"
+	"infutil.h"
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/gzip/inflate.c
+	"zutil.h"
+	"infblock.h"
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/gzip/adler32.c
+	"zlib.h"
+
+1237266593 source:/home/andrew/graphin/src/agg/freetype2/src/lzw/ftlzw.c
+	<ft2build.h>
+	<string.h>
+	<stdio.h>
+	"zopen.h"
+	"zopen.c"
+
+1237266593 /home/andrew/graphin/src/agg/freetype2/src/lzw/zopen.h
+	<stdio.h>
+
+1237266593 /home/andrew/graphin/src/agg/freetype2/src/lzw/zopen.c
+	<ctype.h>
+	<signal.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+
+1237266589 source:/home/andrew/graphin/src/agg/freetype2/src/pcf/pcf.c
+	<ft2build.h>
+	"pcfutil.c"
+	"pcfread.c"
+	"pcfdrivr.c"
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/pcf/pcfutil.c
+	<ft2build.h>
+	"pcfutil.h"
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/pcf/pcfutil.h
+	<ft2build.h>
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/pcf/pcfread.c
+	<ft2build.h>
+	"pcf.h"
+	"pcfdrivr.h"
+	"pcfread.h"
+	"pcferror.h"
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/pcf/pcf.h
+	<ft2build.h>
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/pcf/pcfdrivr.h
+	<ft2build.h>
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/pcf/pcfread.h
+	<ft2build.h>
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/pcf/pcferror.h
+
+1237266589 /home/andrew/graphin/src/agg/freetype2/src/pcf/pcfdrivr.c
+	<ft2build.h>
+	"pcf.h"
+	"pcfdrivr.h"
+	"pcfread.h"
+	"pcferror.h"
+	"pcfutil.h"
+
+1237266580 source:/home/andrew/graphin/src/agg/freetype2/src/pfr/pfr.c
+	<ft2build.h>
+	"pfrload.c"
+	"pfrgload.c"
+	"pfrcmap.c"
+	"pfrobjs.c"
+	"pfrdrivr.c"
+	"pfrsbit.c"
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/pfr/pfrload.c
+	"pfrload.h"
+	"pfrerror.h"
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/pfr/pfrload.h
+	"pfrobjs.h"
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/pfr/pfrobjs.h
+	"pfrtypes.h"
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/pfr/pfrtypes.h
+	<ft2build.h>
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/pfr/pfrerror.h
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/pfr/pfrgload.c
+	"pfrgload.h"
+	"pfrsbit.h"
+	"pfrload.h"
+	"pfrerror.h"
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/pfr/pfrgload.h
+	"pfrtypes.h"
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/pfr/pfrsbit.h
+	"pfrobjs.h"
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/pfr/pfrcmap.c
+	"pfrcmap.h"
+	"pfrobjs.h"
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/pfr/pfrcmap.h
+	<ft2build.h>
+	"pfrtypes.h"
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/pfr/pfrobjs.c
+	"pfrobjs.h"
+	"pfrload.h"
+	"pfrgload.h"
+	"pfrcmap.h"
+	"pfrsbit.h"
+	"pfrerror.h"
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/pfr/pfrdrivr.c
+	<ft2build.h>
+	"pfrdrivr.h"
+	"pfrobjs.h"
+	"pfrerror.h"
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/pfr/pfrdrivr.h
+	<ft2build.h>
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/pfr/pfrsbit.c
+	"pfrsbit.h"
+	"pfrload.h"
+	"pfrerror.h"
+
+1237266585 source:/home/andrew/graphin/src/agg/freetype2/src/psaux/psaux.c
+	<ft2build.h>
+	"psobjs.c"
+	"psauxmod.c"
+	"t1decode.c"
+	"t1cmap.c"
+
+1237266585 /home/andrew/graphin/src/agg/freetype2/src/psaux/psobjs.c
+	<ft2build.h>
+	"psobjs.h"
+	"psauxerr.h"
+
+1237266585 /home/andrew/graphin/src/agg/freetype2/src/psaux/psobjs.h
+	<ft2build.h>
+
+1237266585 /home/andrew/graphin/src/agg/freetype2/src/psaux/psauxerr.h
+
+1237266585 /home/andrew/graphin/src/agg/freetype2/src/psaux/psauxmod.c
+	<ft2build.h>
+	"psauxmod.h"
+	"psobjs.h"
+	"t1decode.h"
+	"t1cmap.h"
+
+1237266585 /home/andrew/graphin/src/agg/freetype2/src/psaux/psauxmod.h
+	<ft2build.h>
+
+1237266585 /home/andrew/graphin/src/agg/freetype2/src/psaux/t1decode.h
+	<ft2build.h>
+
+1237266585 /home/andrew/graphin/src/agg/freetype2/src/psaux/t1cmap.h
+	<ft2build.h>
+
+1237266585 /home/andrew/graphin/src/agg/freetype2/src/psaux/t1decode.c
+	<ft2build.h>
+	"t1decode.h"
+	"psobjs.h"
+	"psauxerr.h"
+
+1237266585 /home/andrew/graphin/src/agg/freetype2/src/psaux/t1cmap.c
+	"t1cmap.h"
+	"psauxerr.h"
+
+1237266581 source:/home/andrew/graphin/src/agg/freetype2/src/pshinter/pshinter.c
+	<ft2build.h>
+	"pshrec.c"
+	"pshglob.c"
+	"pshalgo.c"
+	"pshmod.c"
+
+1237266581 /home/andrew/graphin/src/agg/freetype2/src/pshinter/pshrec.c
+	<ft2build.h>
+	"pshrec.h"
+	"pshalgo.h"
+	"pshnterr.h"
+
+1237266581 /home/andrew/graphin/src/agg/freetype2/src/pshinter/pshrec.h
+	<ft2build.h>
+	"pshglob.h"
+
+1237266581 /home/andrew/graphin/src/agg/freetype2/src/pshinter/pshglob.h
+
+1237266581 /home/andrew/graphin/src/agg/freetype2/src/pshinter/pshalgo.h
+	"pshrec.h"
+	"pshglob.h"
+
+1237266581 /home/andrew/graphin/src/agg/freetype2/src/pshinter/pshnterr.h
+
+1237266581 /home/andrew/graphin/src/agg/freetype2/src/pshinter/pshglob.c
+	<ft2build.h>
+	"pshglob.h"
+
+1237266581 /home/andrew/graphin/src/agg/freetype2/src/pshinter/pshalgo.c
+	<ft2build.h>
+	"pshalgo.h"
+	"pshnterr.h"
+	<stdio.h>
+
+1237266581 /home/andrew/graphin/src/agg/freetype2/src/pshinter/pshmod.c
+	<ft2build.h>
+	"pshrec.h"
+	"pshalgo.h"
+
+1237266588 source:/home/andrew/graphin/src/agg/freetype2/src/psnames/psmodule.c
+	<ft2build.h>
+	"psmodule.h"
+	"pstables.h"
+	"psnamerr.h"
+
+1237266588 /home/andrew/graphin/src/agg/freetype2/src/psnames/psmodule.h
+	<ft2build.h>
+
+1237266588 /home/andrew/graphin/src/agg/freetype2/src/psnames/pstables.h
+
+1237266588 /home/andrew/graphin/src/agg/freetype2/src/psnames/psnamerr.h
+
+1237266585 source:/home/andrew/graphin/src/agg/freetype2/src/raster/raster.c
+	<ft2build.h>
+	"ftraster.c"
+	"ftrend1.c"
+
+1237266585 /home/andrew/graphin/src/agg/freetype2/src/raster/ftraster.c
+	"ftmisc.h"
+	"ftimage.h"
+	<ft2build.h>
+	"ftraster.h"
+	"rasterrs.h"
+
+1237266585 /home/andrew/graphin/src/agg/freetype2/src/raster/ftmisc.h
+	<string.h>
+	<inttypes.h>
+
+1237266585 /home/andrew/graphin/src/agg/freetype2/src/raster/ftraster.h
+	<ft2build.h>
+
+1237266585 /home/andrew/graphin/src/agg/freetype2/src/raster/rasterrs.h
+
+1237266585 /home/andrew/graphin/src/agg/freetype2/src/raster/ftrend1.c
+	<ft2build.h>
+	"ftrend1.h"
+	"ftraster.h"
+	"rasterrs.h"
+
+1237266585 /home/andrew/graphin/src/agg/freetype2/src/raster/ftrend1.h
+	<ft2build.h>
+
+1237266592 source:/home/andrew/graphin/src/agg/freetype2/src/sfnt/sfnt.c
+	<ft2build.h>
+	"ttload.c"
+	"ttcmap.c"
+	"ttkern.c"
+	"sfobjs.c"
+	"sfdriver.c"
+	"ttsbit.c"
+	"ttpost.c"
+
+1237266592 /home/andrew/graphin/src/agg/freetype2/src/sfnt/ttload.c
+	<ft2build.h>
+	"ttload.h"
+	"sferrors.h"
+
+1237266592 /home/andrew/graphin/src/agg/freetype2/src/sfnt/ttload.h
+	<ft2build.h>
+
+1237266592 /home/andrew/graphin/src/agg/freetype2/src/sfnt/sferrors.h
+
+1237266592 /home/andrew/graphin/src/agg/freetype2/src/sfnt/ttcmap.c
+	<ft2build.h>
+	"sferrors.h"
+	"ttload.h"
+	"ttcmap.h"
+
+1237266592 /home/andrew/graphin/src/agg/freetype2/src/sfnt/ttcmap.h
+	<ft2build.h>
+
+1237266592 /home/andrew/graphin/src/agg/freetype2/src/sfnt/ttkern.c
+	<ft2build.h>
+	"ttkern.h"
+	"ttload.h"
+	"sferrors.h"
+
+1237266592 /home/andrew/graphin/src/agg/freetype2/src/sfnt/ttkern.h
+	<ft2build.h>
+
+1237266592 /home/andrew/graphin/src/agg/freetype2/src/sfnt/sfobjs.c
+	<ft2build.h>
+	"sfobjs.h"
+	"ttload.h"
+	"ttcmap.h"
+	"ttkern.h"
+	"sferrors.h"
+
+1237266592 /home/andrew/graphin/src/agg/freetype2/src/sfnt/sfobjs.h
+	<ft2build.h>
+
+1237266592 /home/andrew/graphin/src/agg/freetype2/src/sfnt/sfdriver.c
+	<ft2build.h>
+	"sfdriver.h"
+	"ttload.h"
+	"sfobjs.h"
+	"sferrors.h"
+	"ttsbit.h"
+	"ttpost.h"
+	"ttcmap.h"
+	"ttkern.h"
+
+1237266592 /home/andrew/graphin/src/agg/freetype2/src/sfnt/sfdriver.h
+	<ft2build.h>
+
+1237266592 /home/andrew/graphin/src/agg/freetype2/src/sfnt/ttsbit.h
+	<ft2build.h>
+	"ttload.h"
+
+1237266592 /home/andrew/graphin/src/agg/freetype2/src/sfnt/ttpost.h
+	<ft2build.h>
+
+1237266592 /home/andrew/graphin/src/agg/freetype2/src/sfnt/ttsbit.c
+	<ft2build.h>
+	"ttsbit0.c"
+	<ft2build.h>
+	"ttsbit.h"
+	"sferrors.h"
+
+1237266592 /home/andrew/graphin/src/agg/freetype2/src/sfnt/ttsbit0.c
+	<ft2build.h>
+	"ttsbit.h"
+	"sferrors.h"
+
+1237266592 /home/andrew/graphin/src/agg/freetype2/src/sfnt/ttpost.c
+	<ft2build.h>
+	"ttpost.h"
+	"ttload.h"
+	"sferrors.h"
+
+1237266590 source:/home/andrew/graphin/src/agg/freetype2/src/smooth/smooth.c
+	<ft2build.h>
+	"ftgrays.c"
+	"ftsmooth.c"
+
+1237266590 /home/andrew/graphin/src/agg/freetype2/src/smooth/ftgrays.c
+	<string.h>
+	<setjmp.h>
+	<limits.h>
+	"ftimage.h"
+	"ftgrays.h"
+	<ft2build.h>
+	"ftgrays.h"
+	"ftsmerrs.h"
+	<stdio.h>
+
+1237266590 /home/andrew/graphin/src/agg/freetype2/src/smooth/ftgrays.h
+	"ftimage.h"
+	<ft2build.h>
+
+1237266590 /home/andrew/graphin/src/agg/freetype2/src/smooth/ftsmerrs.h
+
+1237266590 /home/andrew/graphin/src/agg/freetype2/src/smooth/ftsmooth.c
+	<ft2build.h>
+	"ftsmooth.h"
+	"ftgrays.h"
+	"ftsmerrs.h"
+
+1237266590 /home/andrew/graphin/src/agg/freetype2/src/smooth/ftsmooth.h
+	<ft2build.h>
+
+1237266579 source:/home/andrew/graphin/src/agg/freetype2/src/truetype/truetype.c
+	<ft2build.h>
+	"ttdriver.c"
+	"ttpload.c"
+	"ttgload.c"
+	"ttobjs.c"
+	"ttinterp.c"
+	"ttgxvar.c"
+
+1237266579 /home/andrew/graphin/src/agg/freetype2/src/truetype/ttdriver.c
+	<ft2build.h>
+	"ttdriver.h"
+	"ttgload.h"
+	"ttgxvar.h"
+	"tterrors.h"
+
+1237266579 /home/andrew/graphin/src/agg/freetype2/src/truetype/ttdriver.h
+	<ft2build.h>
+
+1237266579 /home/andrew/graphin/src/agg/freetype2/src/truetype/ttgload.h
+	<ft2build.h>
+	"ttobjs.h"
+	"ttinterp.h"
+
+1237266579 /home/andrew/graphin/src/agg/freetype2/src/truetype/ttobjs.h
+	<ft2build.h>
+
+1237266579 /home/andrew/graphin/src/agg/freetype2/src/truetype/ttinterp.h
+	<ft2build.h>
+	"ttobjs.h"
+
+1237266579 /home/andrew/graphin/src/agg/freetype2/src/truetype/ttgxvar.h
+	<ft2build.h>
+	"ttobjs.h"
+
+1237266579 /home/andrew/graphin/src/agg/freetype2/src/truetype/tterrors.h
+
+1237266579 /home/andrew/graphin/src/agg/freetype2/src/truetype/ttpload.c
+	<ft2build.h>
+	"ttpload.h"
+	"ttgxvar.h"
+	"tterrors.h"
+
+1237266579 /home/andrew/graphin/src/agg/freetype2/src/truetype/ttpload.h
+	<ft2build.h>
+
+1237266579 /home/andrew/graphin/src/agg/freetype2/src/truetype/ttgload.c
+	<ft2build.h>
+	"ttgload.h"
+	"ttpload.h"
+	"ttgxvar.h"
+	"tterrors.h"
+
+1237266579 /home/andrew/graphin/src/agg/freetype2/src/truetype/ttobjs.c
+	<ft2build.h>
+	"ttgload.h"
+	"ttpload.h"
+	"tterrors.h"
+	"ttinterp.h"
+	"ttgxvar.h"
+
+1237266579 /home/andrew/graphin/src/agg/freetype2/src/truetype/ttinterp.c
+	<ft2build.h>
+	"ttinterp.h"
+	"tterrors.h"
+
+1237266579 /home/andrew/graphin/src/agg/freetype2/src/truetype/ttgxvar.c
+	<ft2build.h>
+	"ttdriver.h"
+	"ttpload.h"
+	"ttgxvar.h"
+	"tterrors.h"
+
+1237266586 source:/home/andrew/graphin/src/agg/freetype2/src/type1/type1.c
+	<ft2build.h>
+	"t1parse.c"
+	"t1load.c"
+	"t1objs.c"
+	"t1driver.c"
+	"t1gload.c"
+	"t1afm.c"
+
+1237266586 /home/andrew/graphin/src/agg/freetype2/src/type1/t1parse.c
+	<ft2build.h>
+	"t1parse.h"
+	"t1errors.h"
+
+1237266586 /home/andrew/graphin/src/agg/freetype2/src/type1/t1parse.h
+	<ft2build.h>
+
+1237266586 /home/andrew/graphin/src/agg/freetype2/src/type1/t1errors.h
+
+1237266586 /home/andrew/graphin/src/agg/freetype2/src/type1/t1load.c
+	<ft2build.h>
+	"t1load.h"
+	"t1errors.h"
+	"t1tokens.h"
+
+1237266586 /home/andrew/graphin/src/agg/freetype2/src/type1/t1load.h
+	<ft2build.h>
+	"t1parse.h"
+
+1237266586 /home/andrew/graphin/src/agg/freetype2/src/type1/t1tokens.h
+
+1237266586 /home/andrew/graphin/src/agg/freetype2/src/type1/t1objs.c
+	<ft2build.h>
+	"t1gload.h"
+	"t1load.h"
+	"t1errors.h"
+	"t1afm.h"
+
+1237266586 /home/andrew/graphin/src/agg/freetype2/src/type1/t1gload.h
+	<ft2build.h>
+	"t1objs.h"
+
+1237266586 /home/andrew/graphin/src/agg/freetype2/src/type1/t1objs.h
+	<ft2build.h>
+
+1237266586 /home/andrew/graphin/src/agg/freetype2/src/type1/t1afm.h
+	<ft2build.h>
+	"t1objs.h"
+
+1237266586 /home/andrew/graphin/src/agg/freetype2/src/type1/t1driver.c
+	<ft2build.h>
+	"t1driver.h"
+	"t1gload.h"
+	"t1load.h"
+	"t1errors.h"
+	"t1afm.h"
+
+1237266586 /home/andrew/graphin/src/agg/freetype2/src/type1/t1driver.h
+	<ft2build.h>
+
+1237266586 /home/andrew/graphin/src/agg/freetype2/src/type1/t1gload.c
+	<ft2build.h>
+	"t1gload.h"
+	"t1errors.h"
+
+1237266586 /home/andrew/graphin/src/agg/freetype2/src/type1/t1afm.c
+	<ft2build.h>
+	"t1afm.h"
+	"t1errors.h"
+
+1237266580 source:/home/andrew/graphin/src/agg/freetype2/src/type42/type42.c
+	<ft2build.h>
+	"t42objs.c"
+	"t42parse.c"
+	"t42drivr.c"
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/type42/t42objs.c
+	"t42objs.h"
+	"t42parse.h"
+	"t42error.h"
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/type42/t42objs.h
+	<ft2build.h>
+	"t42types.h"
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/type42/t42types.h
+	<ft2build.h>
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/type42/t42parse.h
+	"t42objs.h"
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/type42/t42error.h
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/type42/t42parse.c
+	"t42parse.h"
+	"t42error.h"
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/type42/t42drivr.c
+	"t42drivr.h"
+	"t42objs.h"
+	"t42error.h"
+
+1237266580 /home/andrew/graphin/src/agg/freetype2/src/type42/t42drivr.h
+	<ft2build.h>
+
+1237266588 source:/home/andrew/graphin/src/agg/freetype2/src/winfonts/winfnt.c
+	<ft2build.h>
+	"winfnt.h"
+	"fnterrs.h"
+
+1237266588 /home/andrew/graphin/src/agg/freetype2/src/winfonts/winfnt.h
+	<ft2build.h>
+
+1237266588 /home/andrew/graphin/src/agg/freetype2/src/winfonts/fnterrs.h
+
+1237267751 source:/home/andrew/graphin/src/agg/src/agg2D.cpp
+	"agg2D.h"
+	"agg_bounding_rect.h"
+	"agg_blur.h"
+	<assert.h>
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_bounding_rect.h
+	"agg_basics.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_blur.h
+	"agg_array.h"
+	"agg_pixfmt_transposer.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_pixfmt_transposer.h
+	"agg_basics.h"
+
+1237266559 source:/home/andrew/graphin/src/agg/src/agg_arc.cpp
+	<math.h>
+	"agg_arc.h"
+
+1237266559 source:/home/andrew/graphin/src/agg/src/agg_bezier_arc.cpp
+	<math.h>
+	"agg_bezier_arc.h"
+
+1237266559 source:/home/andrew/graphin/src/agg/src/agg_curves.cpp
+	<math.h>
+	"agg_curves.h"
+	"agg_math.h"
+
+1237266559 source:/home/andrew/graphin/src/agg/src/agg_gsv_text.cpp
+	<string.h>
+	<stdio.h>
+	"agg_gsv_text.h"
+	"agg_bounding_rect.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_gsv_text.h
+	"agg_array.h"
+	"agg_conv_stroke.h"
+	"agg_conv_transform.h"
+
+1237266559 source:/home/andrew/graphin/src/agg/src/agg_image_filters.cpp
+	"agg_image_filters.h"
+
+1237266559 source:/home/andrew/graphin/src/agg/src/agg_line_aa_basics.cpp
+	<math.h>
+	"agg_line_aa_basics.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_line_aa_basics.h
+	<stdlib.h>
+	"agg_basics.h"
+
+1237266559 source:/home/andrew/graphin/src/agg/src/agg_line_profile_aa.cpp
+	"agg_renderer_outline_aa.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_renderer_outline_aa.h
+	"agg_array.h"
+	"agg_math.h"
+	"agg_line_aa_basics.h"
+	"agg_dda_line.h"
+	"agg_ellipse_bresenham.h"
+	"agg_renderer_base.h"
+	"agg_gamma_functions.h"
+	"agg_clip_liang_barsky.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_ellipse_bresenham.h
+	"agg_basics.h"
+
+1237266559 source:/home/andrew/graphin/src/agg/src/agg_rounded_rect.cpp
+	<math.h>
+	"agg_rounded_rect.h"
+
+1237266559 source:/home/andrew/graphin/src/agg/src/agg_sqrt_tables.cpp
+	"agg_basics.h"
+
+1237266559 source:/home/andrew/graphin/src/agg/src/agg_trans_affine.cpp
+	"agg_trans_affine.h"
+
+1237266559 source:/home/andrew/graphin/src/agg/src/agg_vcgen_stroke.cpp
+	<math.h>
+	"agg_vcgen_stroke.h"
+	"agg_shorten_path.h"
+
+1237266568 /home/andrew/graphin/src/agg/include/agg_shorten_path.h
+	"agg_basics.h"
+	"agg_vertex_sequence.h"
+
+1237266620 source:/home/andrew/graphin/src/graphin.cpp
+	"primitives.h"
+	"objects.h"
+	"graphin.h"
+	<malloc.h>
+	<alloca.h>
+	"imageio.h"
+
+1237266620 /home/andrew/graphin/src/imageio.h
+	"graphin.h"
+
+1237266620 source:/home/andrew/graphin/src/imageio.cpp
+	"imageio.h"
+	<malloc.h>
+	<alloca.h>
+	"png.h"
+	"jpeglib.h"
+
+1237266550 /home/andrew/graphin/src/png/png.h
+	"zlib.h"
+	"pngconf.h"
+	<crtdbg.h>
+
+1237266550 /home/andrew/graphin/src/png/pngconf.h
+	"pngusr.h"
+	<windows.h>
+	<stdio.h>
+	<stdio.h>
+	<sys/types.h>
+	<setjmp.h>
+	<strings.h>
+	<string.h>
+	<stdlib.h>
+	<fp.h>
+	<math.h>
+	<m68881.h>
+	<mem.h>
+	<alloc.h>
+	<malloc.h>
+	<time.h>
+	<dos.h>
+
+1237266555 /home/andrew/graphin/src/jpeg/jpeglib.h
+	"jconfig.h"
+	"jmorecfg.h"
+	"jpegint.h"
+	"jerror.h"
+
+1237266555 /home/andrew/graphin/src/jpeg/jconfig.h
+
+1237266555 /home/andrew/graphin/src/jpeg/jmorecfg.h
+	<basetsd.h>
+
+1237266555 /home/andrew/graphin/src/jpeg/jpegint.h
+
+1237266555 /home/andrew/graphin/src/jpeg/jerror.h
+

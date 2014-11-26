@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="xwnd.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="4956" topLine="191" />
+	</File>
+	<File name="../../src/agg/include/agg2D.h" open="1" top="0" tabpos="1">
+		<Cursor position="1173" topLine="22" />
+	</File>
+	<File name="../../src/agg/include/agg_basics.h" open="1" top="0" tabpos="2">
+		<Cursor position="839" topLine="450" />
+	</File>
+	<File name="../../src/agg/src/agg2D.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="72134" topLine="2302" />
+	</File>
+	<File name="../../src/agg/src/agg_curves.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="8301" topLine="247" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,40 @@
+﻿生成启动时间为 2013/10/24 8:53:37。
+     1>项目“D:\Baijie\software\dev\UILib\ImageFactory\raw\dcr.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“.\Release\dcr.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\Baijie\software\dev\UILib\ImageFactory\raw\..\lib\Release\dcr.exe) 与 Linker 的 OutputFile 属性值(D:\Baijie\software\dev\UILib\ImageFactory\raw\dcr.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"dcr.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Release\dcr.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\Baijie\software\dev\UILib\ImageFactory\lib\Release\dcr.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\lib\Release\dcr.lib" /MACHINE:X86 .\Release\dcr.obj
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_cleanup_dcraw，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_jpeg_thumb，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_stretch，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_convert_to_rgb，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_fuji_rotate，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_recover_highlights，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_blend_highlights，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_median_filter，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_vng_interpolate，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_ahd_interpolate，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_ppg_interpolate，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_lin_interpolate，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_pre_interpolate，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_scale_colors，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_subtract，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_bad_pixels，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_remove_zeroes，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_merror，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_fc，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_kodak_ycbcr_load_raw，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_write_ppm_tiff，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_identify，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_parse_command_line_options，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_print_manual，该符号在函数 _main 中被引用
+     1>dcr.obj : error LNK2019: 无法解析的外部符号 _dcr_init_dcraw，该符号在函数 _main 中被引用
+     1>dcr.exe : fatal error LNK1120: 25 个无法解析的外部命令
+     1>已完成生成项目“D:\Baijie\software\dev\UILib\ImageFactory\raw\dcr.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.38

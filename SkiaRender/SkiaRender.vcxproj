@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{80C9221D-E7C6-46FA-98D3-1E03B895FFA7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SkiaRender</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\lib\</OutDir>
+    <TargetName>$(ProjectName)d</TargetName>
+    <IncludePath>D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\include\effects;D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\include\core;D:\Baijie\software\dev\UILib\AUI\include;D:\Baijie\software\dev\UILib\AFC\include;D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\include\config;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\Debug;..\lib;D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\lib\debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\lib\</OutDir>
+    <IncludePath>D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\include\effects;D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\include\config;D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\include\core;D:\Baijie\software\dev\UILib\AUI\include;D:\Baijie\software\dev\UILib\ASys\include;D:\Baijie\software\dev\UILib\AFC\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\lib\release;D:\Baijie\software\dev\UILib\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;SKIARENDER_EXPORTS;_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>usp10.lib;effects.lib;libtess.lib;animator.lib;opts.lib;gr.lib;core.lib;images.lib;utils.lib;skgr.lib;msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>false</Profile>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy ..\lib\skiarenderd.dll ..\..\easyscript\easyscriptbuilder\runtime
+copy ..\lib\skiarenderd.dll ..\..\kuailexin\runtime</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;SKIARENDER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>usp10.lib;effects.lib;libtess.lib;animator.lib;opts.lib;gr.lib;core.lib;images.lib;utils.lib;skgr.lib;msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy ..\lib\skiarender.dll ..\..\easyscript\easyscriptbuilder\runtime
+copy ..\lib\skiarender.dll ..\..\kuailexin\runtime</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ACanvasSkia.cpp" />
+    <ClCompile Include="AMatrixSkia.cpp" />
+    <ClCompile Include="APathSkia.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ACanvasSkia.h" />
+    <ClInclude Include="AMatrixSkia.h" />
+    <ClInclude Include="APathSkia.h" />
+    <ClInclude Include="SkiaRender.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

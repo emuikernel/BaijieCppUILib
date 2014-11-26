@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AMyImage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tif_xfile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximabmp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximadsp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximaenc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximaexif.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximagif.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximahist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximaico.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximainfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximaint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximajas.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximajbg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximajpg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximalpha.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximalyr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximamng.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximapal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximapcx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximapng.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximaraw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximasel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximaska.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximatga.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximatif.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximatran.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximawbmp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximawmf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ximawnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="xmemfile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AMyImage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximabmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximacfg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximadef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximagif.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximaico.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximaiter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximajas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximajbg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximajpg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximamng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximapcx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximapng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximaraw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximaska.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximatga.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximatif.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximawbmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ximawmf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xiofile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xmemfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

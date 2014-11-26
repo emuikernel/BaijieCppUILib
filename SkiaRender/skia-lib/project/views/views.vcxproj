@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{31957AA6-BEC1-4DBA-B381-3C6E1AD1FE2E}</ProjectGuid>
+    <RootNamespace>views</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir)\..\..\include\animator;$(ProjectDir)\..\..\include\config;$(ProjectDir)\..\..\include\views;$(ProjectDir)\..\..\include\xml;$(ProjectDir)\..\..\include\core;$(ProjectDir)\..\..\include\utils;$(ProjectDir)\..\..\include\images;$(ProjectDir)\..\..\include\effects;$(IncludePath)</IncludePath>
+    <OutDir>..\..\..\Debug\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(ProjectDir)\..\..\include\animator;$(ProjectDir)\..\..\include\config;$(ProjectDir)\..\..\include\views;$(ProjectDir)\..\..\include\xml;$(ProjectDir)\..\..\include\core;$(ProjectDir)\..\..\include\utils;$(ProjectDir)\..\..\include\images;$(ProjectDir)\..\..\include\effects;$(IncludePath)</IncludePath>
+    <OutDir>..\..\..\Release\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;SK_CAN_USE_FLOAT;SK_SCALAR_IS_FLOAT;SK_BUILD_FOR_WIN32;SK_IGNORE_STDINT_DOT_H;SK_DEBUG;GR_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(SolutionDir)$(Configuration)\$(ProjectName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>SK_CAN_USE_FLOAT;SK_SCALAR_IS_FLOAT;SK_BUILD_FOR_WIN32;SK_IGNORE_STDINT_DOT_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(SolutionDir)$(Configuration)\$(ProjectName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\views\SkBGViewArtist.cpp" />
+    <ClCompile Include="..\..\src\views\SkBorderView.cpp" />
+    <ClCompile Include="..\..\src\views\SkEvent.cpp" />
+    <ClCompile Include="..\..\src\views\SkEventSink.cpp" />
+    <ClCompile Include="..\..\src\views\SkImageView.cpp" />
+    <ClCompile Include="..\..\src\views\SkListView.cpp" />
+    <ClCompile Include="..\..\src\views\SkOSMenu.cpp" />
+    <ClCompile Include="..\..\src\views\SkParsePaint.cpp" />
+    <ClCompile Include="..\..\src\views\SkProgressBarView.cpp" />
+    <ClCompile Include="..\..\src\views\SkProgressView.cpp" />
+    <ClCompile Include="..\..\src\views\SkScrollBarView.cpp" />
+    <ClCompile Include="..\..\src\views\SkStackViewLayout.cpp" />
+    <ClCompile Include="..\..\src\views\SkStaticTextView.cpp" />
+    <ClCompile Include="..\..\src\views\SkTagList.cpp" />
+    <ClCompile Include="..\..\src\views\SkTextBox.cpp" />
+    <ClCompile Include="..\..\src\views\SkTouchGesture.cpp" />
+    <ClCompile Include="..\..\src\views\SkView.cpp" />
+    <ClCompile Include="..\..\src\views\SkViewInflate.cpp" />
+    <ClCompile Include="..\..\src\views\SkViewPriv.cpp" />
+    <ClCompile Include="..\..\src\views\SkWidget.cpp" />
+    <ClCompile Include="..\..\src\views\SkWidgets.cpp" />
+    <ClCompile Include="..\..\src\views\SkWidgetViews.cpp" />
+    <ClCompile Include="..\..\src\views\SkWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\views\SkTagList.h" />
+    <ClInclude Include="..\..\src\views\SkViewPriv.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

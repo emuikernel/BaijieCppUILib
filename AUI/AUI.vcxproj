@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{21B99C9E-D5D8-4FDF-927A-69AA632BFE59}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AUI</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\lib\</OutDir>
+    <TargetName>$(ProjectName)d</TargetName>
+    <IncludePath>D:\Baijie\software\dev\UILib\AUI;D:\Baijie\software\dev\UILib\ASys\include;D:\Baijie\software\dev\UILib\AFC\include;D:\Baijie\software\dev\UILib\AUI\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Baijie\software\dev\UILib\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\lib\</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+    <IncludePath>D:\Baijie\software\dev\UILib\AUI;D:\Baijie\software\dev\UILib\ASys\include;D:\Baijie\software\dev\UILib\AFC\include;D:\Baijie\software\dev\UILib\AUI\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Baijie\software\dev\UILib\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;AUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;AUI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="include\AAction.h" />
+    <ClInclude Include="include\AActionList.h" />
+    <ClInclude Include="include\AApplication.h" />
+    <ClInclude Include="include\ABrush.h" />
+    <ClInclude Include="include\AButton.h" />
+    <ClInclude Include="include\ACanvas.h" />
+    <ClInclude Include="include\ACheckBox.h" />
+    <ClInclude Include="include\AClipboard.h" />
+    <ClInclude Include="include\ACloseButton.h" />
+    <ClInclude Include="include\AColorDialog.h" />
+    <ClInclude Include="include\AComboBox.h" />
+    <ClInclude Include="include\AContainer.h" />
+    <ClInclude Include="include\AControl.h" />
+    <ClInclude Include="include\ADateControl.h" />
+    <ClInclude Include="include\ADirectoryDialog.h" />
+    <ClInclude Include="include\AEdit.h" />
+    <ClInclude Include="include\AEvent.h" />
+    <ClInclude Include="include\AFCDef.h" />
+    <ClInclude Include="include\AFileOpenDialog.h" />
+    <ClInclude Include="include\AFileSaveDialog.h" />
+    <ClInclude Include="include\AFont.h" />
+    <ClInclude Include="include\AFontDialog.h" />
+    <ClInclude Include="include\AForm.h" />
+    <ClInclude Include="include\AFormWindow.h" />
+    <ClInclude Include="include\AImage.h" />
+    <ClInclude Include="include\AImageControl.h" />
+    <ClInclude Include="include\AImageList.h" />
+    <ClInclude Include="include\AInvisibleControl.h" />
+    <ClInclude Include="include\ALabel.h" />
+    <ClInclude Include="include\AListBox.h" />
+    <ClInclude Include="include\AListBoxItem.h" />
+    <ClInclude Include="include\AListHeader.h" />
+    <ClInclude Include="include\AListHeaderItem.h" />
+    <ClInclude Include="include\AListView.h" />
+    <ClInclude Include="include\AListViewItem.h" />
+    <ClInclude Include="include\AMatrix.h" />
+    <ClInclude Include="include\AMaximizeButton.h" />
+    <ClInclude Include="include\AMemo.h" />
+    <ClInclude Include="include\AMemoAction.h" />
+    <ClInclude Include="include\AMemoTextStorage.h" />
+    <ClInclude Include="include\AMenu.h" />
+    <ClInclude Include="include\AMenuBar.h" />
+    <ClInclude Include="include\AMenuItem.h" />
+    <ClInclude Include="include\AMessageBox.h" />
+    <ClInclude Include="include\AMinimizeButton.h" />
+    <ClInclude Include="include\AMsgExtend.h" />
+    <ClInclude Include="include\APageControl.h" />
+    <ClInclude Include="include\APageSheet.h" />
+    <ClInclude Include="include\APanel.h" />
+    <ClInclude Include="include\APath.h" />
+    <ClInclude Include="include\APen.h" />
+    <ClInclude Include="include\APopupContainer.h" />
+    <ClInclude Include="include\APopupContainerWindow.h" />
+    <ClInclude Include="include\APopupDateBox.h" />
+    <ClInclude Include="include\APopupListBox.h" />
+    <ClInclude Include="include\APropEdit.h" />
+    <ClInclude Include="include\ARadioButton.h" />
+    <ClInclude Include="include\AScrollBar.h" />
+    <ClInclude Include="include\ASidePanel.h" />
+    <ClInclude Include="include\ASkin.h" />
+    <ClInclude Include="include\ASlide.h" />
+    <ClInclude Include="include\ASpinControl.h" />
+    <ClInclude Include="include\ASpliter.h" />
+    <ClInclude Include="include\ASysIconImageList.h" />
+    <ClInclude Include="include\ATableContainer.h" />
+    <ClInclude Include="include\ATimeControl.h" />
+    <ClInclude Include="include\ATimer.h" />
+    <ClInclude Include="include\ATitleBar.h" />
+    <ClInclude Include="include\ATreeView.h" />
+    <ClInclude Include="include\ATreeViewItem.h" />
+    <ClInclude Include="include\AUI.h" />
+    <ClInclude Include="include\AUIBase.h" />
+    <ClInclude Include="include\AUICore.h" />
+    <ClInclude Include="include\AUIDef.h" />
+    <ClInclude Include="include\AUIUtil.h" />
+    <ClInclude Include="include\AWinControlBase.h" />
+    <ClInclude Include="include\AWindow.h" />
+    <ClInclude Include="include\AWindowBase.h" />
+    <ClInclude Include="include\PropItemControl.h" />
+    <ClInclude Include="src\ACaptureMsgExtend.h" />
+    <ClInclude Include="src\AColorDialogForm.h" />
+    <ClInclude Include="src\ADelMsgExtend.h" />
+    <ClInclude Include="src\ADirectoryForm.h" />
+    <ClInclude Include="src\AFileDialogForm.h" />
+    <ClInclude Include="src\AFontForm.h" />
+    <ClInclude Include="src\AInternalImageCache.h" />
+    <ClInclude Include="src\AMemoActionImpl.h" />
+    <ClInclude Include="src\AMemoTextMatrix.h" />
+    <ClInclude Include="src\AMemoTextStorageImpl.h" />
+    <ClInclude Include="src\AMessageForm.h" />
+    <ClInclude Include="src\ANcMsgExtend.h" />
+    <ClInclude Include="src\APaintMsgExtend.h" />
+    <ClInclude Include="src\stdafx.h" />
+    <ClInclude Include="src\wnl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AAction.cpp" />
+    <ClCompile Include="src\AActionList.cpp" />
+    <ClCompile Include="src\AApplication.cpp" />
+    <ClCompile Include="src\ABrush.cpp" />
+    <ClCompile Include="src\AButton.cpp" />
+    <ClCompile Include="src\ACanvas.cpp" />
+    <ClCompile Include="src\ACaptureMsgExtend.cpp" />
+    <ClCompile Include="src\ACheckBox.cpp" />
+    <ClCompile Include="src\AClipboard.cpp" />
+    <ClCompile Include="src\ACloseButton.cpp" />
+    <ClCompile Include="src\AColorDialog.cpp" />
+    <ClCompile Include="src\AColorDialogForm.cpp" />
+    <ClCompile Include="src\AComboBox.cpp" />
+    <ClCompile Include="src\AContainer.cpp" />
+    <ClCompile Include="src\AControl.cpp" />
+    <ClCompile Include="src\ADateControl.cpp" />
+    <ClCompile Include="src\ADelMsgExtend.cpp" />
+    <ClCompile Include="src\ADirectoryDialog.cpp" />
+    <ClCompile Include="src\ADirectoryForm.cpp" />
+    <ClCompile Include="src\AEdit.cpp" />
+    <ClCompile Include="src\AEvent.cpp" />
+    <ClCompile Include="src\AFileDialogForm.cpp" />
+    <ClCompile Include="src\AFileOpenDialog.cpp" />
+    <ClCompile Include="src\AFileSaveDialog.cpp" />
+    <ClCompile Include="src\AFont.cpp" />
+    <ClCompile Include="src\AFontDialog.cpp" />
+    <ClCompile Include="src\AFontForm.cpp" />
+    <ClCompile Include="src\AForm.cpp" />
+    <ClCompile Include="src\AFormWindow.cpp" />
+    <ClCompile Include="src\AImage.cpp" />
+    <ClCompile Include="src\AImageControl.cpp" />
+    <ClCompile Include="src\AImageList.cpp" />
+    <ClCompile Include="src\AInvisibleControl.cpp" />
+    <ClCompile Include="src\ALabel.cpp" />
+    <ClCompile Include="src\AListBox.cpp" />
+    <ClCompile Include="src\AListBoxItem.cpp" />
+    <ClCompile Include="src\AListHeader.cpp" />
+    <ClCompile Include="src\AListHeaderItem.cpp" />
+    <ClCompile Include="src\AListView.cpp" />
+    <ClCompile Include="src\AListViewItem.cpp" />
+    <ClCompile Include="src\AMatrix.cpp" />
+    <ClCompile Include="src\AMaximizeButton.cpp" />
+    <ClCompile Include="src\AMemo.cpp" />
+    <ClCompile Include="src\AMemoActionImpl.cpp" />
+    <ClCompile Include="src\AMemoTextStorageImpl.cpp" />
+    <ClCompile Include="src\AMenu.cpp" />
+    <ClCompile Include="src\AMenuBar.cpp" />
+    <ClCompile Include="src\AMenuItem.cpp" />
+    <ClCompile Include="src\AMessageBox.cpp" />
+    <ClCompile Include="src\AMessageForm.cpp" />
+    <ClCompile Include="src\AMinimizeButton.cpp" />
+    <ClCompile Include="src\AMsgExtend.cpp" />
+    <ClCompile Include="src\ANcMsgExtend.cpp" />
+    <ClCompile Include="src\APageControl.cpp" />
+    <ClCompile Include="src\APageSheet.cpp" />
+    <ClCompile Include="src\APaintMsgExtend.cpp" />
+    <ClCompile Include="src\APanel.cpp" />
+    <ClCompile Include="src\APath.cpp" />
+    <ClCompile Include="src\APen.cpp" />
+    <ClCompile Include="src\APopupContainer.cpp" />
+    <ClCompile Include="src\APopupContainerWindow.cpp" />
+    <ClCompile Include="src\APopupDateBox.cpp" />
+    <ClCompile Include="src\APopupListBox.cpp" />
+    <ClCompile Include="src\APropEdit.cpp" />
+    <ClCompile Include="src\ARadioButton.cpp" />
+    <ClCompile Include="src\AScrollBar.cpp" />
+    <ClCompile Include="src\ASidePanel.cpp" />
+    <ClCompile Include="src\ASkin.cpp" />
+    <ClCompile Include="src\ASlide.cpp" />
+    <ClCompile Include="src\ASpinControl.cpp" />
+    <ClCompile Include="src\ASpliter.cpp" />
+    <ClCompile Include="src\ASysIconImageList.cpp" />
+    <ClCompile Include="src\ATableContainer.cpp" />
+    <ClCompile Include="src\ATimeControl.cpp" />
+    <ClCompile Include="src\ATimer.cpp" />
+    <ClCompile Include="src\ATitleBar.cpp" />
+    <ClCompile Include="src\ATreeView.cpp" />
+    <ClCompile Include="src\ATreeViewItem.cpp" />
+    <ClCompile Include="src\AUIBase.cpp" />
+    <ClCompile Include="src\AUICore.cpp" />
+    <ClCompile Include="src\AUIUtil.cpp" />
+    <ClCompile Include="src\AWinControlBase.cpp" />
+    <ClCompile Include="src\AWindow.cpp" />
+    <ClCompile Include="src\AWindowBase.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\PropItemControl.cpp" />
+    <ClCompile Include="src\stdafx.cpp" />
+    <ClCompile Include="src\wnl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Error.ico" />
+    <None Include="src\infor.ico" />
+    <None Include="src\Question.ico" />
+    <None Include="src\waiting.ico" />
+    <None Include="src\warning - 副本.ico" />
+    <None Include="src\warning.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

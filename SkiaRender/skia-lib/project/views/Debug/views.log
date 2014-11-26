@@ -1,0 +1,68 @@
+﻿生成启动时间为 2013/10/24 10:08:18。
+     1>项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\views\views.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\views.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /Od /Oy- /D _DEBUG /D SK_CAN_USE_FLOAT /D SK_SCALAR_IS_FLOAT /D SK_BUILD_FOR_WIN32 /D SK_IGNORE_STDINT_DOT_H /D SK_DEBUG /D GR_DEBUG=1 /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"D:\Baijie\software\dev\UILib\SkiaRender\Debug\views.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\views\SkBGViewArtist.cpp ..\..\src\views\SkBorderView.cpp ..\..\src\views\SkEvent.cpp ..\..\src\views\SkEventSink.cpp ..\..\src\views\SkImageView.cpp ..\..\src\views\SkListView.cpp ..\..\src\views\SkOSMenu.cpp ..\..\src\views\SkParsePaint.cpp ..\..\src\views\SkProgressBarView.cpp ..\..\src\views\SkProgressView.cpp ..\..\src\views\SkScrollBarView.cpp ..\..\src\views\SkStackViewLayout.cpp ..\..\src\views\SkStaticTextView.cpp ..\..\src\views\SkTagList.cpp ..\..\src\views\SkTextBox.cpp ..\..\src\views\SkTouchGesture.cpp ..\..\src\views\SkView.cpp ..\..\src\views\SkViewInflate.cpp ..\..\src\views\SkViewPriv.cpp ..\..\src\views\SkWidget.cpp ..\..\src\views\SkWidgets.cpp ..\..\src\views\SkWidgetViews.cpp ..\..\src\views\SkWindow.cpp
+         SkWindow.cpp
+         SkWidgetViews.cpp
+         SkWidgets.cpp
+         SkWidget.cpp
+         SkViewPriv.cpp
+         SkViewInflate.cpp
+         SkView.cpp
+         SkTouchGesture.cpp
+         SkTextBox.cpp
+         SkTagList.cpp
+         SkStaticTextView.cpp
+         SkStackViewLayout.cpp
+         SkScrollBarView.cpp
+         SkProgressView.cpp
+         SkProgressBarView.cpp
+         SkParsePaint.cpp
+         SkOSMenu.cpp
+         SkListView.cpp
+         SkImageView.cpp
+         SkEventSink.cpp
+         正在生成代码...
+         正在编译...
+         SkEvent.cpp
+         SkBorderView.cpp
+         SkBGViewArtist.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\..\Debug\views.lib" /NOLOGO Debug\SkBGViewArtist.obj
+         Debug\SkBorderView.obj
+         Debug\SkEvent.obj
+         Debug\SkEventSink.obj
+         Debug\SkImageView.obj
+         Debug\SkListView.obj
+         Debug\SkOSMenu.obj
+         Debug\SkParsePaint.obj
+         Debug\SkProgressBarView.obj
+         Debug\SkProgressView.obj
+         Debug\SkScrollBarView.obj
+         Debug\SkStackViewLayout.obj
+         Debug\SkStaticTextView.obj
+         Debug\SkTagList.obj
+         Debug\SkTextBox.obj
+         Debug\SkTouchGesture.obj
+         Debug\SkView.obj
+         Debug\SkViewInflate.obj
+         Debug\SkViewPriv.obj
+         Debug\SkWidget.obj
+         Debug\SkWidgets.obj
+         Debug\SkWidgetViews.obj
+         Debug\SkWindow.obj
+     1>SkWidgets.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+     1>SkWidget.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+     1>SkListView.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+         views.vcxproj -> D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\views\..\..\..\Debug\views.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\views.unsuccessfulbuild”。
+         正在对“Debug\views.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\views\views.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:24.44

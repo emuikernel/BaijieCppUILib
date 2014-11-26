@@ -1,0 +1,83 @@
+﻿生成启动时间为 2013/12/16 18:03:37。
+     1>项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\gr\gr.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\gr.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oi /Oy- /GL /D SK_CAN_USE_FLOAT /D SK_SCALAR_IS_FLOAT /D SK_BUILD_FOR_WIN32 /D SK_IGNORE_STDINT_DOT_H /D GR_IMPLEMENTATION=1 /D GR_WIN32_BUILD=1 /D GR_GL_FUNCTION_TYPE=__stdcall /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\Release\gr.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\gpu\src\GrAllocPool.cpp ..\..\gpu\src\GrAtlas.cpp ..\..\gpu\src\GrBufferAllocPool.cpp ..\..\gpu\src\GrClip.cpp ..\..\gpu\src\GrContext.cpp ..\..\gpu\src\GrCreatePathRenderer_tesselated.cpp ..\..\gpu\src\GrDrawTarget.cpp ..\..\gpu\src\GrGLIndexBuffer.cpp ..\..\gpu\src\GrGLInterface.cpp ..\..\gpu\src\GrGLProgram.cpp ..\..\gpu\src\GrGLTexture.cpp ..\..\gpu\src\GrGLUtil.cpp ..\..\gpu\src\GrGLVertexBuffer.cpp ..\..\gpu\src\GrGpu.cpp ..\..\gpu\src\GrGpuFactory.cpp ..\..\gpu\src\GrGpuGL.cpp ..\..\gpu\src\GrGpuGLFixed.cpp ..\..\gpu\src\GrGpuGLShaders.cpp ..\..\gpu\src\GrInOrderDrawBuffer.cpp ..\..\gpu\src\GrMatrix.cpp ..\..\gpu\src\GrMemory.cpp ..\..\gpu\src\GrPathRenderer.cpp ..\..\gpu\src\GrPathUtils.cpp ..\..\gpu\src\GrRectanizer.cpp ..\..\gpu\src\GrResource.cpp ..\..\gpu\src\GrStencil.cpp ..\..\gpu\src\GrTesselatedPathRenderer.cpp ..\..\gpu\src\GrTextContext.cpp ..\..\gpu\src\GrTextStrike.cpp ..\..\gpu\src\GrTexture.cpp ..\..\gpu\src\GrTextureCache.cpp ..\..\gpu\src\gr_unittests.cpp ..\..\gpu\src\win\GrGLDefaultInterface_win.cpp
+         GrAllocPool.cpp
+         GrAtlas.cpp
+         GrBufferAllocPool.cpp
+         GrClip.cpp
+         GrContext.cpp
+         GrCreatePathRenderer_tesselated.cpp
+         GrDrawTarget.cpp
+         GrGLIndexBuffer.cpp
+         GrGLInterface.cpp
+         GrGLProgram.cpp
+         GrGLTexture.cpp
+         GrGLUtil.cpp
+         GrGLVertexBuffer.cpp
+         GrGpu.cpp
+         GrGpuFactory.cpp
+         GrGpuGL.cpp
+         GrGpuGLFixed.cpp
+         GrGpuGLShaders.cpp
+         GrInOrderDrawBuffer.cpp
+         GrMatrix.cpp
+         正在编译...
+         GrMemory.cpp
+         GrPathRenderer.cpp
+         GrPathUtils.cpp
+         GrRectanizer.cpp
+         GrResource.cpp
+         GrStencil.cpp
+         GrTesselatedPathRenderer.cpp
+         GrTextContext.cpp
+         GrTextStrike.cpp
+         GrTexture.cpp
+         GrTextureCache.cpp
+         gr_unittests.cpp
+         GrGLDefaultInterface_win.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\..\Release\gr.lib" /NOLOGO /LTCG Release\GrAllocPool.obj
+         Release\GrAtlas.obj
+         Release\GrBufferAllocPool.obj
+         Release\GrClip.obj
+         Release\GrContext.obj
+         Release\GrCreatePathRenderer_tesselated.obj
+         Release\GrDrawTarget.obj
+         Release\GrGLIndexBuffer.obj
+         Release\GrGLInterface.obj
+         Release\GrGLProgram.obj
+         Release\GrGLTexture.obj
+         Release\GrGLUtil.obj
+         Release\GrGLVertexBuffer.obj
+         Release\GrGpu.obj
+         Release\GrGpuFactory.obj
+         Release\GrGpuGL.obj
+         Release\GrGpuGLFixed.obj
+         Release\GrGpuGLShaders.obj
+         Release\GrInOrderDrawBuffer.obj
+         Release\GrMatrix.obj
+         Release\GrMemory.obj
+         Release\GrPathRenderer.obj
+         Release\GrPathUtils.obj
+         Release\GrRectanizer.obj
+         Release\GrResource.obj
+         Release\GrStencil.obj
+         Release\GrTesselatedPathRenderer.obj
+         Release\GrTextContext.obj
+         Release\GrTextStrike.obj
+         Release\GrTexture.obj
+         Release\GrTextureCache.obj
+         Release\gr_unittests.obj
+         Release\GrGLDefaultInterface_win.obj
+         gr.vcxproj -> D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\gr\..\..\..\Release\gr.lib
+       FinalizeBuildStatus:
+         正在删除文件“Release\gr.unsuccessfulbuild”。
+         正在对“Release\gr.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\gr\gr.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:35.69

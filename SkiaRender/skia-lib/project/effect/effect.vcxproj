@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C0FE1FFD-F3A5-4334-BE20-D0C633097B44}</ProjectGuid>
+    <RootNamespace>effect</RootNamespace>
+    <ProjectName>effects</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir)\..\..\include\effects;$(ProjectDir)\..\..\include\core;$(ProjectDir)\..\..\include\config;$(IncludePath)</IncludePath>
+    <OutDir>..\..\..\Debug</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(ProjectDir)\..\..\include\effects;$(ProjectDir)\..\..\include\core;$(ProjectDir)\..\..\include\config;$(IncludePath)</IncludePath>
+    <OutDir>..\..\..\Release\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;SK_CAN_USE_FLOAT;SK_SCALAR_IS_FLOAT;SK_BUILD_FOR_WIN32;SK_IGNORE_STDINT_DOT_H;SK_DEBUG;GR_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(SolutionDir)$(Configuration)\$(ProjectName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>SK_CAN_USE_FLOAT;SK_SCALAR_IS_FLOAT;SK_BUILD_FOR_WIN32;SK_IGNORE_STDINT_DOT_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(SolutionDir)$(Configuration)\$(ProjectName).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\effects\Sk1DPathEffect.cpp" />
+    <ClCompile Include="..\..\src\effects\Sk2DPathEffect.cpp" />
+    <ClCompile Include="..\..\src\effects\SkAvoidXfermode.cpp" />
+    <ClCompile Include="..\..\src\effects\SkBitmapCache.cpp" />
+    <ClCompile Include="..\..\src\effects\SkBlurDrawLooper.cpp" />
+    <ClCompile Include="..\..\src\effects\SkBlurMask.cpp" />
+    <ClCompile Include="..\..\src\effects\SkBlurMaskFilter.cpp" />
+    <ClCompile Include="..\..\src\effects\SkColorFilters.cpp" />
+    <ClCompile Include="..\..\src\effects\SkColorMatrixFilter.cpp" />
+    <ClCompile Include="..\..\src\effects\SkCornerPathEffect.cpp" />
+    <ClCompile Include="..\..\src\effects\SkDashPathEffect.cpp" />
+    <ClCompile Include="..\..\src\effects\SkDiscretePathEffect.cpp" />
+    <ClCompile Include="..\..\src\effects\SkEmbossMask.cpp" />
+    <ClCompile Include="..\..\src\effects\SkEmbossMaskFilter.cpp" />
+    <ClCompile Include="..\..\src\effects\SkGradientShader.cpp" />
+    <ClCompile Include="..\..\src\effects\SkGroupShape.cpp" />
+    <ClCompile Include="..\..\src\effects\SkKernel33MaskFilter.cpp" />
+    <ClCompile Include="..\..\src\effects\SkLayerDrawLooper.cpp" />
+    <ClCompile Include="..\..\src\effects\SkLayerRasterizer.cpp" />
+    <ClCompile Include="..\..\src\effects\SkPaintFlagsDrawFilter.cpp" />
+    <ClCompile Include="..\..\src\effects\SkPixelXorXfermode.cpp" />
+    <ClCompile Include="..\..\src\effects\SkPorterDuff.cpp" />
+    <ClCompile Include="..\..\src\effects\SkRectShape.cpp" />
+    <ClCompile Include="..\..\src\effects\SkTransparentShader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\effects\SkBitmapCache.h" />
+    <ClInclude Include="..\..\src\effects\SkBlurMask.h" />
+    <ClInclude Include="..\..\src\effects\SkEmbossMask.h" />
+    <ClInclude Include="..\..\src\effects\SkEmbossMask_Table.h" />
+    <ClInclude Include="..\..\src\effects\SkRadialGradient_Table.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{933004BF-6D9E-42D6-88F7-CA70E13AB310}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ImageFactory</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\lib\</OutDir>
+    <TargetName>$(ProjectName)d</TargetName>
+    <IncludePath>D:\Baijie\software\dev\UILib\ImageFactory\zlib;D:\Baijie\software\dev\UILib\ImageFactory\tiff;D:\Baijie\software\dev\UILib\ImageFactory\raw;D:\Baijie\software\dev\UILib\ImageFactory\png;D:\Baijie\software\dev\UILib\ImageFactory\mng;D:\Baijie\software\dev\UILib\ImageFactory\jpeg;D:\Baijie\software\dev\UILib\ImageFactory\jbig;D:\Baijie\software\dev\UILib\ImageFactory\jasper\include;D:\Baijie\software\dev\UILib\AUI\include;D:\Baijie\software\dev\UILib\ASys\include;D:\Baijie\software\dev\UILib\AFC\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Baijie\software\dev\UILib\ImageFactory\lib\debug;D:\Baijie\software\dev\UILib\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\Baijie\software\dev\UILib\ImageFactory\zlib;D:\Baijie\software\dev\UILib\ImageFactory\tiff;D:\Baijie\software\dev\UILib\ImageFactory\raw;D:\Baijie\software\dev\UILib\ImageFactory\png;D:\Baijie\software\dev\UILib\ImageFactory\mng;D:\Baijie\software\dev\UILib\ImageFactory\jbig;D:\Baijie\software\dev\UILib\ImageFactory\jasper\include\jasper;D:\Baijie\software\dev\UILib\ImageFactory\jpeg;D:\Baijie\software\dev\UILib\AUI\include;D:\Baijie\software\dev\UILib\ASys\include;D:\Baijie\software\dev\UILib\AFC\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Baijie\software\dev\UILib\ImageFactory\lib\Release;D:\Baijie\software\dev\UILib\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;IMAGEFACTORY_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>jasper.lib;jbig.lib;jpeg.lib;libdcr.lib;mng.lib;png.lib;tiff.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;IMAGEFACTORY_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AMyImage.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="tif_xfile.cpp" />
+    <ClCompile Include="ximabmp.cpp" />
+    <ClCompile Include="ximadsp.cpp" />
+    <ClCompile Include="ximaenc.cpp" />
+    <ClCompile Include="ximaexif.cpp" />
+    <ClCompile Include="ximage.cpp" />
+    <ClCompile Include="ximagif.cpp" />
+    <ClCompile Include="ximahist.cpp" />
+    <ClCompile Include="ximaico.cpp" />
+    <ClCompile Include="ximainfo.cpp" />
+    <ClCompile Include="ximaint.cpp" />
+    <ClCompile Include="ximajas.cpp" />
+    <ClCompile Include="ximajbg.cpp" />
+    <ClCompile Include="ximajpg.cpp" />
+    <ClCompile Include="ximalpha.cpp" />
+    <ClCompile Include="ximalyr.cpp" />
+    <ClCompile Include="ximamng.cpp" />
+    <ClCompile Include="ximapal.cpp" />
+    <ClCompile Include="ximapcx.cpp" />
+    <ClCompile Include="ximapng.cpp" />
+    <ClCompile Include="ximaraw.cpp" />
+    <ClCompile Include="ximasel.cpp" />
+    <ClCompile Include="ximaska.cpp" />
+    <ClCompile Include="ximatga.cpp" />
+    <ClCompile Include="ximath.cpp" />
+    <ClCompile Include="ximatif.cpp" />
+    <ClCompile Include="ximatran.cpp" />
+    <ClCompile Include="ximawbmp.cpp" />
+    <ClCompile Include="ximawmf.cpp" />
+    <ClCompile Include="ximawnd.cpp" />
+    <ClCompile Include="xmemfile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AMyImage.h" />
+    <ClInclude Include="ImageFactory.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="xfile.h" />
+    <ClInclude Include="ximabmp.h" />
+    <ClInclude Include="ximacfg.h" />
+    <ClInclude Include="ximadef.h" />
+    <ClInclude Include="ximage.h" />
+    <ClInclude Include="ximagif.h" />
+    <ClInclude Include="ximaico.h" />
+    <ClInclude Include="ximaiter.h" />
+    <ClInclude Include="ximajas.h" />
+    <ClInclude Include="ximajbg.h" />
+    <ClInclude Include="ximajpg.h" />
+    <ClInclude Include="ximamng.h" />
+    <ClInclude Include="ximapcx.h" />
+    <ClInclude Include="ximapng.h" />
+    <ClInclude Include="ximaraw.h" />
+    <ClInclude Include="ximaska.h" />
+    <ClInclude Include="ximatga.h" />
+    <ClInclude Include="ximath.h" />
+    <ClInclude Include="ximatif.h" />
+    <ClInclude Include="ximawbmp.h" />
+    <ClInclude Include="ximawmf.h" />
+    <ClInclude Include="xiofile.h" />
+    <ClInclude Include="xmemfile.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

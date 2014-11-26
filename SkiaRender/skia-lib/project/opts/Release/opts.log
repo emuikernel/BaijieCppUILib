@@ -1,0 +1,22 @@
+﻿生成启动时间为 2013/12/16 18:04:02。
+     1>项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\opts\opts.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\opts.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oi /Oy- /GL /D SK_CAN_USE_FLOAT /D SK_SCALAR_IS_FLOAT /D SK_BUILD_FOR_WIN32 /D SK_IGNORE_STDINT_DOT_H /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\Release\opts.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\opts\SkBitmapProcState_opts_SSE2.cpp ..\..\src\opts\SkBlitRow_opts_SSE2.cpp ..\..\src\opts\SkUtils_opts_SSE2.cpp
+         SkBitmapProcState_opts_SSE2.cpp
+         SkBlitRow_opts_SSE2.cpp
+         SkUtils_opts_SSE2.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\..\Release\opts.lib" /NOLOGO /LTCG Release\SkBitmapProcState_opts_SSE2.obj
+         Release\SkBlitRow_opts_SSE2.obj
+         Release\SkUtils_opts_SSE2.obj
+         opts.vcxproj -> D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\opts\..\..\..\Release\opts.lib
+       FinalizeBuildStatus:
+         正在删除文件“Release\opts.unsuccessfulbuild”。
+         正在对“Release\opts.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\opts\opts.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.88

@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\AAction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AActionList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AApplication.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ABrush.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ACanvas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ACheckBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AClipboard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ACloseButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AColorDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AComboBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ADateControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ADirectoryDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AFCDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AFileOpenDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AFileSaveDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AFont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AFontDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AFormWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AImage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AImageControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AImageList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AInvisibleControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ALabel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AListBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AListBoxItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AListHeader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AListHeaderItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AListView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AListViewItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AMaximizeButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AMemo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AMemoAction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AMemoTextStorage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AMenuBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AMenuItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AMessageBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AMinimizeButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AMsgExtend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\APageControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\APageSheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\APanel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\APath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\APen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\APopupContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\APopupContainerWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\APopupDateBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\APopupListBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\APropEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ARadioButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AScrollBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ASidePanel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ASkin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ASlide.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ASpinControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ASpliter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ASysIconImageList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATableContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATimeControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATimer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATitleBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATreeView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ATreeViewItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AUIBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AUICore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AUIDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AUIUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AWinControlBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AWindowBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PropItemControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ACaptureMsgExtend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AColorDialogForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ADelMsgExtend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ADirectoryForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AFileDialogForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AFontForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AInternalImageCache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AMemoActionImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AMemoTextMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AMemoTextStorageImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AMessageForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ANcMsgExtend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\APaintMsgExtend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wnl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AAction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AActionList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ABrush.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ACanvas.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ACaptureMsgExtend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ACheckBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AClipboard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ACloseButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AColorDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AColorDialogForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AComboBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AContainer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ADateControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ADelMsgExtend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ADirectoryDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ADirectoryForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AFileDialogForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AFileOpenDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AFileSaveDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AFont.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AFontDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AFontForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AFormWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AImage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AImageControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AImageList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AInvisibleControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ALabel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AListBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AListBoxItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AListHeader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AListHeaderItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AListView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AListViewItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AMatrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AMaximizeButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AMemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AMemoActionImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AMemoTextStorageImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AMenuBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AMenuItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AMessageBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AMessageForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AMinimizeButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AMsgExtend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ANcMsgExtend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\APageControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\APageSheet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\APaintMsgExtend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\APanel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\APath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\APen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\APopupContainer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\APopupContainerWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\APopupDateBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\APopupListBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\APropEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ARadioButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AScrollBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ASidePanel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ASkin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ASlide.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ASpinControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ASpliter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ASysIconImageList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ATableContainer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ATimeControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ATimer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ATitleBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ATreeView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ATreeViewItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AUIBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AUICore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AUIUtil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AWinControlBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AWindowBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PropItemControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wnl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Error.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="src\infor.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="src\Question.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="src\waiting.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="src\warning - 副本.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="src\warning.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

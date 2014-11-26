@@ -1,0 +1,17 @@
+control
+{
+	type:Array
+	displayname:控件容器
+	iscontainer:1
+	icon:Array.bmp
+	drawstyle:box
+	cat:不可视控件
+	props
+	{
+		prop{name:n type:string displayname:名称 }
+		prop{name:l type:int displayname:左 }
+		prop{name:t type:int displayname:上 }
+		prop{name:w type:int displayname:宽 default:200}
+		prop{name:h type:int displayname:高 default:200}
+	}
+}

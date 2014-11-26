@@ -1,0 +1,65 @@
+﻿生成启动时间为 2013/12/16 18:04:08。
+     1>项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\effect\effect.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\effects.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oi /Oy- /GL /D SK_CAN_USE_FLOAT /D SK_SCALAR_IS_FLOAT /D SK_BUILD_FOR_WIN32 /D SK_IGNORE_STDINT_DOT_H /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\Release\effects.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\effects\Sk1DPathEffect.cpp ..\..\src\effects\Sk2DPathEffect.cpp ..\..\src\effects\SkAvoidXfermode.cpp ..\..\src\effects\SkBitmapCache.cpp ..\..\src\effects\SkBlurDrawLooper.cpp ..\..\src\effects\SkBlurMask.cpp ..\..\src\effects\SkBlurMaskFilter.cpp ..\..\src\effects\SkColorFilters.cpp ..\..\src\effects\SkColorMatrixFilter.cpp ..\..\src\effects\SkCornerPathEffect.cpp ..\..\src\effects\SkDashPathEffect.cpp ..\..\src\effects\SkDiscretePathEffect.cpp ..\..\src\effects\SkEmbossMask.cpp ..\..\src\effects\SkEmbossMaskFilter.cpp ..\..\src\effects\SkGradientShader.cpp ..\..\src\effects\SkGroupShape.cpp ..\..\src\effects\SkKernel33MaskFilter.cpp ..\..\src\effects\SkLayerDrawLooper.cpp ..\..\src\effects\SkLayerRasterizer.cpp ..\..\src\effects\SkPaintFlagsDrawFilter.cpp ..\..\src\effects\SkPixelXorXfermode.cpp ..\..\src\effects\SkPorterDuff.cpp ..\..\src\effects\SkRectShape.cpp ..\..\src\effects\SkTransparentShader.cpp
+         Sk1DPathEffect.cpp
+         Sk2DPathEffect.cpp
+         SkAvoidXfermode.cpp
+         SkBitmapCache.cpp
+         SkBlurDrawLooper.cpp
+         SkBlurMask.cpp
+         SkBlurMaskFilter.cpp
+         SkColorFilters.cpp
+         SkColorMatrixFilter.cpp
+         SkCornerPathEffect.cpp
+         SkDashPathEffect.cpp
+         SkDiscretePathEffect.cpp
+         SkEmbossMask.cpp
+         SkEmbossMaskFilter.cpp
+         SkGradientShader.cpp
+         SkGroupShape.cpp
+         SkKernel33MaskFilter.cpp
+         SkLayerDrawLooper.cpp
+         SkLayerRasterizer.cpp
+         SkPaintFlagsDrawFilter.cpp
+         正在编译...
+         SkPixelXorXfermode.cpp
+         SkPorterDuff.cpp
+         SkRectShape.cpp
+         SkTransparentShader.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\..\Release\effects.lib" /NOLOGO /LTCG Release\Sk1DPathEffect.obj
+         Release\Sk2DPathEffect.obj
+         Release\SkAvoidXfermode.obj
+         Release\SkBitmapCache.obj
+         Release\SkBlurDrawLooper.obj
+         Release\SkBlurMask.obj
+         Release\SkBlurMaskFilter.obj
+         Release\SkColorFilters.obj
+         Release\SkColorMatrixFilter.obj
+         Release\SkCornerPathEffect.obj
+         Release\SkDashPathEffect.obj
+         Release\SkDiscretePathEffect.obj
+         Release\SkEmbossMask.obj
+         Release\SkEmbossMaskFilter.obj
+         Release\SkGradientShader.obj
+         Release\SkGroupShape.obj
+         Release\SkKernel33MaskFilter.obj
+         Release\SkLayerDrawLooper.obj
+         Release\SkLayerRasterizer.obj
+         Release\SkPaintFlagsDrawFilter.obj
+         Release\SkPixelXorXfermode.obj
+         Release\SkPorterDuff.obj
+         Release\SkRectShape.obj
+         Release\SkTransparentShader.obj
+         effect.vcxproj -> D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\effect\..\..\..\Release\effects.lib
+       FinalizeBuildStatus:
+         正在删除文件“Release\effects.unsuccessfulbuild”。
+         正在对“Release\effects.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\effect\effect.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:23.17

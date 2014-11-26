@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="png" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../platform/linux/libpng" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../../platform/linux/libpng" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Linker>
+			<Add library="libz.a" />
+		</Linker>
+		<Unit filename="png.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="png.h" />
+		<Unit filename="pngconf.h" />
+		<Unit filename="pngerror.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pnggccrd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngget.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngmem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngpread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngrio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngrtran.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngrutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngtrans.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngvcrd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngwio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngwrite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngwtran.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pngwutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

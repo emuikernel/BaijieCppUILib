@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AUI", "AUI.vcxproj", "{21B99C9E-D5D8-4FDF-927A-69AA632BFE59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21B99C9E-D5D8-4FDF-927A-69AA632BFE59}.Debug|Win32.ActiveCfg = Debug|Win32
+		{21B99C9E-D5D8-4FDF-927A-69AA632BFE59}.Debug|Win32.Build.0 = Debug|Win32
+		{21B99C9E-D5D8-4FDF-927A-69AA632BFE59}.Release|Win32.ActiveCfg = Release|Win32
+		{21B99C9E-D5D8-4FDF-927A-69AA632BFE59}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

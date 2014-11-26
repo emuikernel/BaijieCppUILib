@@ -1,0 +1,63 @@
+﻿生成启动时间为 2014/2/8 19:10:50。
+     1>项目“D:\Baijie\software\dev\UILib\ImageFactory\jpeg\jpeg.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Debug\jpeg.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Lib:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\lib\debug\jpeg.lib" /NOLOGO .\Debug\Jcapimin.obj
+         .\Debug\Jcapistd.obj
+         .\Debug\Jccoefct.obj
+         .\Debug\Jccolor.obj
+         .\Debug\Jcdctmgr.obj
+         .\Debug\Jchuff.obj
+         .\Debug\Jcinit.obj
+         .\Debug\Jcmainct.obj
+         .\Debug\Jcmarker.obj
+         .\Debug\Jcmaster.obj
+         .\Debug\Jcomapi.obj
+         .\Debug\Jcparam.obj
+         .\Debug\Jcphuff.obj
+         .\Debug\Jcprepct.obj
+         .\Debug\Jcsample.obj
+         .\Debug\Jctrans.obj
+         .\Debug\Jdapimin.obj
+         .\Debug\Jdapistd.obj
+         .\Debug\Jdatadst.obj
+         .\Debug\Jdatasrc.obj
+         .\Debug\Jdcoefct.obj
+         .\Debug\Jdcolor.obj
+         .\Debug\Jddctmgr.obj
+         .\Debug\Jdhuff.obj
+         .\Debug\Jdinput.obj
+         .\Debug\Jdmainct.obj
+         .\Debug\Jdmarker.obj
+         .\Debug\Jdmaster.obj
+         .\Debug\Jdmerge.obj
+         .\Debug\Jdphuff.obj
+         .\Debug\Jdpostct.obj
+         .\Debug\Jdsample.obj
+         .\Debug\Jdtrans.obj
+         .\Debug\Jerror.obj
+         .\Debug\Jfdctflt.obj
+         .\Debug\Jfdctfst.obj
+         .\Debug\Jfdctint.obj
+         .\Debug\Jidctflt.obj
+         .\Debug\Jidctfst.obj
+         .\Debug\Jidctint.obj
+         .\Debug\Jidctred.obj
+         .\Debug\Jmemmgr.obj
+         .\Debug\Jmemnobs.obj
+         .\Debug\Jquant1.obj
+         .\Debug\Jquant2.obj
+         .\Debug\Jutils.obj
+         jpeg.vcxproj -> D:\Baijie\software\dev\UILib\ImageFactory\jpeg\..\lib\Debug\jpeg.lib
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\jpeg.unsuccessfulbuild”。
+         正在对“.\Debug\jpeg.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Baijie\software\dev\UILib\ImageFactory\jpeg\jpeg.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.34

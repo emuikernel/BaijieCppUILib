@@ -1,0 +1,40 @@
+﻿生成启动时间为 2013/12/16 18:03:37。
+     1>项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\pdf\pdf.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\pdf.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oi /Oy- /GL /D SK_CAN_USE_FLOAT /D SK_SCALAR_IS_FLOAT /D SK_BUILD_FOR_WIN32 /D SK_IGNORE_STDINT_DOT_H /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\Release\pdf.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\pdf\SkPDFCatalog.cpp ..\..\src\pdf\SkPDFDevice.cpp ..\..\src\pdf\SkPDFDocument.cpp ..\..\src\pdf\SkPDFFont.cpp ..\..\src\pdf\SkPDFFormXObject.cpp ..\..\src\pdf\SkPDFGraphicState.cpp ..\..\src\pdf\SkPDFImage.cpp ..\..\src\pdf\SkPDFPage.cpp ..\..\src\pdf\SkPDFShader.cpp ..\..\src\pdf\SkPDFStream.cpp ..\..\src\pdf\SkPDFTypes.cpp ..\..\src\pdf\SkPDFUtils.cpp
+         SkPDFCatalog.cpp
+         SkPDFDevice.cpp
+         SkPDFDocument.cpp
+         SkPDFFont.cpp
+         SkPDFFormXObject.cpp
+         SkPDFGraphicState.cpp
+         SkPDFImage.cpp
+         SkPDFPage.cpp
+         SkPDFShader.cpp
+         SkPDFStream.cpp
+         SkPDFTypes.cpp
+         SkPDFUtils.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\..\Release\pdf.lib" /NOLOGO /LTCG Release\SkPDFCatalog.obj
+         Release\SkPDFDevice.obj
+         Release\SkPDFDocument.obj
+         Release\SkPDFFont.obj
+         Release\SkPDFFormXObject.obj
+         Release\SkPDFGraphicState.obj
+         Release\SkPDFImage.obj
+         Release\SkPDFPage.obj
+         Release\SkPDFShader.obj
+         Release\SkPDFStream.obj
+         Release\SkPDFTypes.obj
+         Release\SkPDFUtils.obj
+         pdf.vcxproj -> D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\pdf\..\..\..\Release\pdf.lib
+       FinalizeBuildStatus:
+         正在删除文件“Release\pdf.unsuccessfulbuild”。
+         正在对“Release\pdf.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\pdf\pdf.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.76

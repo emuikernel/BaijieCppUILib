@@ -1,0 +1,13 @@
+static ACHAR* g_szFormXML=
+	L"<c type=@AboutForm@ w=@300@ h = @200@ pos=@s@ tx=@关于@ >"
+		L"<children>"
+			L"<c type=@TitleBar@ n=@TitleBar@ al=@t@ h=@53@>"
+				L"<children>"
+					L"<c type=@CloseButton@ n=@cb@ l=@0@ t=@2@ h=@26@ w = @26@ anc=@rt@ anc_r=@2@ />"
+				L"</children>"
+			L"</c>"
+			L"<c type=@Label@ tx=@百捷界面库 V1.0@ l=@10@ t=@20@ w=@120@ h=@28@ />"
+			L"<c type=@Button@ tx=@确定@ n=@OKButton@ l=@81@ t=@55@ w=@87@ h=@25@ />"
+		L"</children>"
+	L"</c>"
+	;

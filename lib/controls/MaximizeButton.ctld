@@ -1,0 +1,38 @@
+control
+{
+	type:MaximizeButton
+	displayname:最大化按钮
+	iscontainer:0
+	icon:MaxminizedButton.bmp
+	drawstyle:Box
+	cat:窗口相关
+	props
+	{
+		prop{name:n type:string displayname:名称 }
+		prop{name:ft type:combo displayname:浮动 choices{"":"无" x:"水平浮动" y:"垂直浮动" xy:"水平垂直都浮动" }}
+		prop{name:anc type:string displayname:锚点(ltrb) default:lt }
+		prop{name:al type:combo displayname:对齐 choices{"":"无" l:"左对齐" t:"上对齐" r:"右对齐" b:"下对齐" c:"填充" } default:r }
+		prop{name:l type:int displayname:左 }
+		prop{name:t type:int displayname:上 }
+		prop{name:w type:int displayname:宽 default:18}
+		prop{name:h type:int displayname:高 default:18}
+		prop{name:anc_r type:int displayname:右锚点值 }
+		prop{name:anc_b type:int displayname:下锚点值 }
+		prop{name:hnt type:string displayname:气泡提示 }
+		prop{name:bw type:int displayname:边框宽度 default:1 }
+		prop{name:pd type:int displayname:内边距 default:0 }
+		prop{name:bcr type:color displayname:边框颜色 default:"(0:0:0)"}
+		prop{name:OnMouseDown type:string displayname:(事件)鼠标按下 }
+		prop{name:OnMouseUp type:string displayname:(事件)鼠标松开 }
+		prop{name:OnMouseMove type:string displayname:(事件)鼠标移动 }
+		prop{name:OnClick type:string displayname:(事件)点击 }
+		prop{name:OnPaint type:string displayname:(事件)绘画 }
+		prop{name:OnEnter type:string displayname:(事件)光标进入 }
+		prop{name:OnLeave type:string displayname:(事件)光标离开 }
+		prop{name:OnKillFocus type:string displayname:(事件)失去焦点 }
+		prop{name:OnFocus type:string displayname:(事件)获得焦点 }
+		prop{name:OnMouseWheel type:string displayname:(事件)鼠标滚轴滚动 }
+		prop{name:OnDblClick type:string displayname:(事件)双击 }
+		prop{name:OnKeyboard type:string displayname:(事件)键盘输入 }
+	}
+}

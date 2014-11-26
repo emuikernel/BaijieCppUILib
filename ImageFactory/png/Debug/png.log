@@ -1,0 +1,33 @@
+﻿生成启动时间为 2014/2/8 19:10:50。
+     1>项目“D:\Baijie\software\dev\UILib\ImageFactory\png\png.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Debug\png.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Lib:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\lib\debug\png.lib" /NOLOGO .\Debug\png.obj
+         .\Debug\pngerror.obj
+         .\Debug\pngget.obj
+         .\Debug\pngmem.obj
+         .\Debug\pngpread.obj
+         .\Debug\pngread.obj
+         .\Debug\pngrio.obj
+         .\Debug\pngrtran.obj
+         .\Debug\pngrutil.obj
+         .\Debug\pngset.obj
+         .\Debug\pngtrans.obj
+         .\Debug\pngvcrd.obj
+         .\Debug\pngwio.obj
+         .\Debug\pngwrite.obj
+         .\Debug\pngwtran.obj
+         .\Debug\pngwutil.obj
+         png.vcxproj -> D:\Baijie\software\dev\UILib\ImageFactory\png\..\lib\Debug\png.lib
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\png.unsuccessfulbuild”。
+         正在对“.\Debug\png.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Baijie\software\dev\UILib\ImageFactory\png\png.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.25

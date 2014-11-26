@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="源文件\images">
+      <UniqueIdentifier>{f571cd93-3b09-4dd1-9167-f537534f5c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ports">
+      <UniqueIdentifier>{34d1e6a0-1427-4b95-a47f-6c1c0e73a028}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\images\bmpdecoderhelper.cpp">
+      <Filter>源文件\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\images\SkScaledBitmapSampler.cpp">
+      <Filter>源文件\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\images\SkCreateRLEPixelRef.cpp">
+      <Filter>源文件\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\images\SkFlipPixelRef.cpp">
+      <Filter>源文件\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\images\SkImageDecoder.cpp">
+      <Filter>源文件\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\images\SkImageDecoder_libbmp.cpp">
+      <Filter>源文件\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\images\SkImageDecoder_libico.cpp">
+      <Filter>源文件\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\images\SkImageDecoder_wbmp.cpp">
+      <Filter>源文件\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\images\SkImageEncoder.cpp">
+      <Filter>源文件\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\images\SkImageRef.cpp">
+      <Filter>源文件\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\images\SkImageRef_GlobalPool.cpp">
+      <Filter>源文件\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\images\SkImageRefPool.cpp">
+      <Filter>源文件\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\images\SkMovie.cpp">
+      <Filter>源文件\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\images\SkPageFlipper.cpp">
+      <Filter>源文件\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ports\SkImageDecoder_WIC.cpp">
+      <Filter>源文件\ports</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\images\bmpdecoderhelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\images\SkBitmap_RLEPixels.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\images\SkImageRefPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\images\SkScaledBitmapSampler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

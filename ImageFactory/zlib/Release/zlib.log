@@ -1,0 +1,42 @@
+﻿生成启动时间为 2013/10/24 8:50:00。
+     1>项目“D:\Baijie\software\dev\UILib\ImageFactory\zlib\zlib.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Release\zlib.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0600 /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt adler32.c compress.c crc32.c deflate.c gzio.c infback.c inffast.c inflate.c inftrees.c trees.c uncompr.c zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzio.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+         正在生成代码...
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\Baijie\software\dev\UILib\ImageFactory\zlib\..\lib\Release\zlib.lib) 与 Library 的 OutputFile 属性值(D:\Baijie\software\dev\UILib\ImageFactory\zlib\Release\zlib.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Release\zlib.lib" /NOLOGO .\Release\adler32.obj
+         .\Release\compress.obj
+         .\Release\crc32.obj
+         .\Release\deflate.obj
+         .\Release\gzio.obj
+         .\Release\infback.obj
+         .\Release\inffast.obj
+         .\Release\inflate.obj
+         .\Release\inftrees.obj
+         .\Release\trees.obj
+         .\Release\uncompr.obj
+         .\Release\zutil.obj
+         zlib.vcxproj -> D:\Baijie\software\dev\UILib\ImageFactory\zlib\..\lib\Release\zlib.lib
+       FinalizeBuildStatus:
+         正在删除文件“.\Release\zlib.unsuccessfulbuild”。
+         正在对“.\Release\zlib.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Baijie\software\dev\UILib\ImageFactory\zlib\zlib.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.39

@@ -1,0 +1,51 @@
+control
+{
+	type:Slide
+	displayname:滑块
+	iscontainer:0
+	icon:Slide.bmp
+	drawstyle:Box
+	cat:基本控件
+	props
+	{
+		prop{name:n type:string displayname:名称 }
+		prop{name:tx type:string displayname:标题 }
+		prop{name:en type:bool displayname:允许 default:1 }
+		prop{name:vi type:bool displayname:可见 default:1 }
+		prop{name:ft type:combo displayname:浮动 choices{"":"无" x:"水平浮动" y:"垂直浮动" xy:"水平垂直都浮动" }}
+		prop{name:anc type:string displayname:锚点(ltrb) default:lt }
+		prop{name:aim type:combo displayname:方向 choices{垂直:"" 水平:""  } default:水平 }
+		prop{name:al type:combo displayname:对齐 choices{"":"无" l:"左对齐" t:"上对齐" r:"右对齐" b:"下对齐" c:"填充" }  }
+		prop{name:l type:int displayname:左 }
+		prop{name:t type:int displayname:上 }
+		prop{name:w type:int displayname:宽 default:30}
+		prop{name:h type:int displayname:高 default:30}
+		prop{name:anc_r type:int displayname:右锚点值 }
+		prop{name:anc_b type:int displayname:下锚点值 }
+		prop{name:hnt type:string displayname:气泡提示 }
+		prop{name:bw type:int displayname:边框宽度 default:1 }
+		prop{name:pd type:int displayname:内边距 default:0 }
+		prop{name:bcr type:color displayname:边框颜色 default:-14545407}
+		prop{name:font expand:1 displayname:字体 props
+			{
+				prop{name:n type:combo canedit:1 displayname:字体名称 default:宋体 choices{宋体:"" 楷体_GB2312:"" 黑体:"" 隶书:"" Verdana:"" Arial:"" Tahoma:"" "Courier New":"" "Microsoft Sans Serif":"" Times:""}}
+				prop{name:sz type:int displayname:字体大小 default:12 }
+				prop{name:cr type:color displayname:字体颜色 default:-15725560 }
+				prop{name:st type:string displayname:字体风格(bius) }
+			}
+		}
+		prop{name:OnMouseDown type:string displayname:(事件)鼠标按下 }
+		prop{name:OnMouseUp type:string displayname:(事件)鼠标松开 }
+		prop{name:OnMouseMove type:string displayname:(事件)鼠标移动 }
+		prop{name:OnClick type:string displayname:(事件)点击 }
+		prop{name:OnPaint type:string displayname:(事件)绘画 }
+		prop{name:OnEnter type:string displayname:(事件)光标进入 }
+		prop{name:OnLeave type:string displayname:(事件)光标离开 }
+		prop{name:OnKillFocus type:string displayname:(事件)失去焦点 }
+		prop{name:OnFocus type:string displayname:(事件)获得焦点 }
+		prop{name:OnMouseWheel type:string displayname:(事件)鼠标滚轴滚动 }
+		prop{name:OnDblClick type:string displayname:(事件)双击 }
+		prop{name:OnKeyboard type:string displayname:(事件)键盘输入 }
+	}
+}
+

@@ -1,0 +1,63 @@
+﻿生成启动时间为 2013/12/16 18:03:50。
+     1>项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\views\views.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\views.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oi /Oy- /GL /D SK_CAN_USE_FLOAT /D SK_SCALAR_IS_FLOAT /D SK_BUILD_FOR_WIN32 /D SK_IGNORE_STDINT_DOT_H /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\Release\views.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\views\SkBGViewArtist.cpp ..\..\src\views\SkBorderView.cpp ..\..\src\views\SkEvent.cpp ..\..\src\views\SkEventSink.cpp ..\..\src\views\SkImageView.cpp ..\..\src\views\SkListView.cpp ..\..\src\views\SkOSMenu.cpp ..\..\src\views\SkParsePaint.cpp ..\..\src\views\SkProgressBarView.cpp ..\..\src\views\SkProgressView.cpp ..\..\src\views\SkScrollBarView.cpp ..\..\src\views\SkStackViewLayout.cpp ..\..\src\views\SkStaticTextView.cpp ..\..\src\views\SkTagList.cpp ..\..\src\views\SkTextBox.cpp ..\..\src\views\SkTouchGesture.cpp ..\..\src\views\SkView.cpp ..\..\src\views\SkViewInflate.cpp ..\..\src\views\SkViewPriv.cpp ..\..\src\views\SkWidget.cpp ..\..\src\views\SkWidgets.cpp ..\..\src\views\SkWidgetViews.cpp ..\..\src\views\SkWindow.cpp
+         SkBGViewArtist.cpp
+         SkBorderView.cpp
+         SkEvent.cpp
+         SkEventSink.cpp
+         SkImageView.cpp
+         SkListView.cpp
+         SkOSMenu.cpp
+         SkParsePaint.cpp
+         SkProgressBarView.cpp
+         SkProgressView.cpp
+         SkScrollBarView.cpp
+         SkStackViewLayout.cpp
+         SkStaticTextView.cpp
+         SkTagList.cpp
+         SkTextBox.cpp
+         SkTouchGesture.cpp
+         SkView.cpp
+         SkViewInflate.cpp
+         SkViewPriv.cpp
+         SkWidget.cpp
+         正在编译...
+         SkWidgets.cpp
+         SkWidgetViews.cpp
+         SkWindow.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\..\Release\views.lib" /NOLOGO /LTCG Release\SkBGViewArtist.obj
+         Release\SkBorderView.obj
+         Release\SkEvent.obj
+         Release\SkEventSink.obj
+         Release\SkImageView.obj
+         Release\SkListView.obj
+         Release\SkOSMenu.obj
+         Release\SkParsePaint.obj
+         Release\SkProgressBarView.obj
+         Release\SkProgressView.obj
+         Release\SkScrollBarView.obj
+         Release\SkStackViewLayout.obj
+         Release\SkStaticTextView.obj
+         Release\SkTagList.obj
+         Release\SkTextBox.obj
+         Release\SkTouchGesture.obj
+         Release\SkView.obj
+         Release\SkViewInflate.obj
+         Release\SkViewPriv.obj
+         Release\SkWidget.obj
+         Release\SkWidgets.obj
+         Release\SkWidgetViews.obj
+         Release\SkWindow.obj
+         views.vcxproj -> D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\views\..\..\..\Release\views.lib
+       FinalizeBuildStatus:
+         正在删除文件“Release\views.unsuccessfulbuild”。
+         正在对“Release\views.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\views\views.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:19.48

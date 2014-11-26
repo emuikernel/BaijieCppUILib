@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="demos/x/xdemo.cbp" active="1" />
+		<Project filename="src/jpeg/jpeg.cbp" />
+		<Project filename="src/png/png.cbp">
+			<Depends filename="src/zlib/z.cbp" />
+		</Project>
+		<Project filename="src/zlib/z.cbp" />
+		<Project filename="platform/linux/graphin.cbp">
+			<Depends filename="src/jpeg/jpeg.cbp" />
+			<Depends filename="src/png/png.cbp" />
+		</Project>
+		<Project filename="../tests/simple/simple.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

@@ -1,0 +1,64 @@
+﻿生成启动时间为 2013/10/24 10:08:19。
+     1>项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\utils\utils.vcxproj”在节点 5 上(build 个目标)。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+     1>InitializeBuildStatus:
+         正在创建“Debug\utils.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /Od /Oy- /D _DEBUG /D SK_CAN_USE_FLOAT /D SK_SCALAR_IS_FLOAT /D SK_BUILD_FOR_WIN32 /D SK_IGNORE_STDINT_DOT_H /D SK_DEBUG /D GR_DEBUG=1 /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"D:\Baijie\software\dev\UILib\SkiaRender\Debug\utils.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\utils\SkBoundaryPatch.cpp ..\..\src\utils\SkCamera.cpp ..\..\src\utils\SkColorMatrix.cpp ..\..\src\utils\SkCubicInterval.cpp ..\..\src\utils\SkCullPoints.cpp ..\..\src\utils\SkDumpCanvas.cpp ..\..\src\utils\SkInterpolator.cpp ..\..\src\utils\SkLayer.cpp ..\..\src\utils\SkMatrix44.cpp ..\..\src\utils\SkMeshUtils.cpp ..\..\src\utils\SkNinePatch.cpp ..\..\src\utils\SkNWayCanvas.cpp ..\..\src\utils\SkOSFile.cpp ..\..\src\utils\SkParse.cpp ..\..\src\utils\SkParseColor.cpp ..\..\src\utils\SkParsePath.cpp ..\..\src\utils\SkProxyCanvas.cpp ..\..\src\utils\SkSfntUtils.cpp ..\..\src\utils\SkUnitMappers.cpp ..\..\src\utils\win\SkAutoCoInitialize.cpp ..\..\src\utils\win\SkEGLContext_Win.cpp ..\..\src\utils\win\SkIStream.cpp
+         SkIStream.cpp
+         SkEGLContext_Win.cpp
+         SkAutoCoInitialize.cpp
+         SkUnitMappers.cpp
+         SkSfntUtils.cpp
+         SkProxyCanvas.cpp
+         SkParsePath.cpp
+         SkParseColor.cpp
+         SkParse.cpp
+         SkOSFile.cpp
+         SkNWayCanvas.cpp
+         SkNinePatch.cpp
+         SkMeshUtils.cpp
+         SkMatrix44.cpp
+         SkLayer.cpp
+         SkInterpolator.cpp
+         SkDumpCanvas.cpp
+         SkCullPoints.cpp
+         SkCubicInterval.cpp
+         SkColorMatrix.cpp
+         正在生成代码...
+         正在编译...
+         SkCamera.cpp
+         SkBoundaryPatch.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\..\Debug\utils.lib" /NOLOGO Debug\SkBoundaryPatch.obj
+         Debug\SkCamera.obj
+         Debug\SkColorMatrix.obj
+         Debug\SkCubicInterval.obj
+         Debug\SkCullPoints.obj
+         Debug\SkDumpCanvas.obj
+         Debug\SkInterpolator.obj
+         Debug\SkLayer.obj
+         Debug\SkMatrix44.obj
+         Debug\SkMeshUtils.obj
+         Debug\SkNinePatch.obj
+         Debug\SkNWayCanvas.obj
+         Debug\SkOSFile.obj
+         Debug\SkParse.obj
+         Debug\SkParseColor.obj
+         Debug\SkParsePath.obj
+         Debug\SkProxyCanvas.obj
+         Debug\SkSfntUtils.obj
+         Debug\SkUnitMappers.obj
+         Debug\SkAutoCoInitialize.obj
+         Debug\SkEGLContext_Win.obj
+         Debug\SkIStream.obj
+         utils.vcxproj -> D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\utils\..\..\..\Debug\utils.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\utils.unsuccessfulbuild”。
+         正在对“Debug\utils.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Baijie\software\dev\UILib\SkiaRender\skia-lib\project\utils\utils.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:19.94
