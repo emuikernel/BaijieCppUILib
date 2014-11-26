@@ -1,0 +1,7 @@
+[credential "https://yourgitaddress.git"]
+    helper = wincred
+[http]
+	sslVerify = false
+[user]
+	name = yourname
+	email = youremail
