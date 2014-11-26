@@ -11,3 +11,11 @@
 *.lai
 *.la
 *.a
+
+# windows
+*.sdf
+*.dll
+*.obj
+*.ipch
+*.pdb
+*.exp
