@@ -44,7 +44,7 @@
 
 •技术支持QQ：376808013  技术支持群：276228406
 
-•给我们发邮件：support@gzbaijienet.com
+•给我们发邮件：mydee@21cn.com
 
 •拨打电话
 
@@ -54,6 +54,6 @@
 
  
 
-技术支持QQ群：276228406
-广州百捷官方交流群
-技术论坛 http://www.baijienet.com/bbs/home.esh 在线参考手册
+技术支持QQ群：276228406 广州百捷官方交流群
+
+技术论坛 http://www.baijienet.com/bbs/home.esh 在线参考手册 http://www.baijienet.com/UILib/doc/index.html
